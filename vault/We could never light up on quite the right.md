@@ -1,5 +1,5 @@
 ---
-tags:
+tags: [funny, insult]
   - compliment
   - flattery
 ---

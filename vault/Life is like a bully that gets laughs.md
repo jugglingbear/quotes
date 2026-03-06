@@ -1,5 +1,5 @@
 ---
-tags: life, depressing, bully
+tags: [sad, dark]
 ---
 
 Author: [[Michael J. Livingston]]

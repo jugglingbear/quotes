@@ -1,5 +1,5 @@
 ---
-tags:
+tags: [insightful, family]
   - kids
   - insightful
 ---

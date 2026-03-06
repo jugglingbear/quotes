@@ -1,5 +1,5 @@
 ---
-tags: motivational, profound, favorite, journey, destination
+tags: [inspiring, profound, favorite]
 ---
 
 Author: [[Brandon Sanderson]]

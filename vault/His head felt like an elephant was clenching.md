@@ -1,5 +1,5 @@
 ---
-tags: funny, crude
+tags: [funny, crude]
 ---
 
 Author: [[Robert Bevan]]

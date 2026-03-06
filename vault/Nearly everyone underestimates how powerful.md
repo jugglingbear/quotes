@@ -1,5 +1,5 @@
 ---
-tags: [thoughtful, profound, emotional]
+tags: [profound, comforting]
 ---
 
 Author: [[Jim Butcher]]

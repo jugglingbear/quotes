@@ -1,5 +1,5 @@
 ---
-tags: thoughtful
+tags: [profound, faith]
 ---
 
 Author: [[Orson Scott Card]]

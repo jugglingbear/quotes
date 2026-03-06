@@ -1,5 +1,5 @@
 ---
-tags: clever, warning, gambling, casino
+tags: [clever, dark, insightful]
 ---
 
 Author: [[Simon R. Green]]

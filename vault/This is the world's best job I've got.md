@@ -1,5 +1,5 @@
 ---
-tags: thoughtful, profound
+tags: [insightful, craft]
 ---
 
 Author: [[Stephen King]]

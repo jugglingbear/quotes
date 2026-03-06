@@ -1,5 +1,5 @@
 ---
-tags: thoughtful, sad
+tags: [sad, profound]
 ---
 
 Author: [[Rick Remender]]

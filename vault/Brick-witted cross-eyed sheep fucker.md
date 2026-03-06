@@ -1,5 +1,5 @@
 ---
-tags: [insult]
+tags: [insult, crude]
 ---
 
 Author: [[Scott Lynch]]

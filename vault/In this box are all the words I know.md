@@ -1,5 +1,5 @@
 ---
-tags:
+tags: [inspiring, craft]
   - profound
   - learning
 ---

@@ -1,5 +1,5 @@
 ---
-tags: dark, funny
+tags: [dark, funny]
 ---
 
 Author: [[Joe Abercrombie]]

@@ -1,5 +1,5 @@
 ---
-tags: insightful, thoughtful, profound
+tags: [profound, insightful]
 ---
 
 Author: [[Brandon Sanderson]]

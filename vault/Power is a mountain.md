@@ -1,5 +1,5 @@
 ---
-tags:
+tags: [dark, profound]
   - power
   - negative
 ---

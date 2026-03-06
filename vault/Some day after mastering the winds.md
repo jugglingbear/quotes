@@ -1,5 +1,5 @@
 ---
-tags: []
+tags: [profound, faith]
 ---
 Author: [[Pierre Teilhard de Charin]]
 Book: [[Toward the Future]]

@@ -1,5 +1,5 @@
 ---
-tags:
+tags: [inspiring, clever]
   - encouraging
   - math
   - infinity

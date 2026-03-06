@@ -1,5 +1,5 @@
 ---
-tags: [motivational, profound]
+tags: [profound, inspiring]
 ---
 
 Author: [[Brandon Sanderson]]

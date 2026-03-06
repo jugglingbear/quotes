@@ -1,5 +1,5 @@
 ---
-tags: profound
+tags: [clever, insightful]
 ---
 
 Author: [[Martine Leavitt]]

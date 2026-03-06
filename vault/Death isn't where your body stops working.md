@@ -1,5 +1,5 @@
 ---
-tags: [thoughtful]
+tags: [profound, death]
 ---
 
 Author: [[Jim Butcher]]

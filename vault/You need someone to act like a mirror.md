@@ -1,5 +1,5 @@
 ---
-tags: work, thoughtful
+tags: [insightful, craft]
 ---
 Author: [[Unknown]]
 

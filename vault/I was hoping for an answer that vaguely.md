@@ -1,5 +1,5 @@
 ---
-tags: [funny, insulting]
+tags: [funny, insult]
 ---
 
 Author: [[Jim Butcher]]

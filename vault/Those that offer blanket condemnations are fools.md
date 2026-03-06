@@ -1,5 +1,5 @@
 ---
-tags:
+tags: [insightful]
   - thoughtful
   - chastize
   - advice

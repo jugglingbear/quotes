@@ -1,5 +1,5 @@
 ---
-tags: dark
+tags: [dark]
 ---
 
 Artist: [[Crusher-P]]

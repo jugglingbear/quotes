@@ -1,5 +1,5 @@
 ---
-tags: [profound, motivational]
+tags: [profound, inspiring]
 ---
 
 Author: [[Jim Butcher]]

@@ -1,5 +1,5 @@
 ---
-tags:
+tags: [funny, crude, family]
   - funny
   - babies
 ---

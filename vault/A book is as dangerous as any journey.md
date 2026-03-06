@@ -1,3 +1,6 @@
+---
+tags: [profound, craft]
+---
 Author: [[Mark Lawrence]]
 Book: [[Red Sister]]
 

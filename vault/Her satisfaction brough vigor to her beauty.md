@@ -1,5 +1,5 @@
 ---
-tags: [motivational, romantic]
+tags: [romantic, inspiring]
 ---
 
 Author: [[Brent Weeks]]

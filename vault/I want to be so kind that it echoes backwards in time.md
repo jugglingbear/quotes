@@ -1,5 +1,5 @@
 ---
-tags: healing, loving
+tags: [comforting, inspiring]
 ---
 
 Author: ???

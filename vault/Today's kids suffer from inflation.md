@@ -1,5 +1,5 @@
 ---
-tags: learning, kids, thoughtful
+tags: [insightful, family]
 ---
 
 Author: [[Foster Cline]] [[Jim Fay]]

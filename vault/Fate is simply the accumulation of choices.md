@@ -1,5 +1,5 @@
 ---
-tags:
+tags: [profound]
   - thoughtful
   - fate
   - choice

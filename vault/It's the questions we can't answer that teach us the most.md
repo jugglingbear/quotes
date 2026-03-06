@@ -1,5 +1,5 @@
 ---
-tags: profound, favorite
+tags: [profound, favorite]
 ---
 
 Author: [[Patrick Rothfuss]]

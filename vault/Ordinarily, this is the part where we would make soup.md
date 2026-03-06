@@ -1,5 +1,5 @@
 ---
-tags: [crude]
+tags: [crude, dark]
 ---
 
 Author: [[Scott Lynch]]

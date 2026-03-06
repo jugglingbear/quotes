@@ -1,5 +1,5 @@
 ---
-tags: thoughtful, existential
+tags: [profound, insightful]
 ---
 
 Author: [[Brandon Sanderson]]

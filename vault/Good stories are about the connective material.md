@@ -1,5 +1,5 @@
 ---
-tags: profound
+tags: [profound, craft]
 ---
 
 Author: [[J. Michael Straczynski]]

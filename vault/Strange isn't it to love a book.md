@@ -1,5 +1,5 @@
 ---
-tags:
+tags: [craft, romantic]
   - thoughtful
   - books
 ---

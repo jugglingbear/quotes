@@ -1,5 +1,5 @@
 ---
-tags:
+tags: [insightful, dark]
   - calvin
   - hobbes
   - insightful

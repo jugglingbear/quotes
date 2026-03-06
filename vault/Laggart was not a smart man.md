@@ -1,5 +1,5 @@
 ---
-tags: Insulting
+tags: [insult, clever]
 ---
 
 Author: [[Brandon Sanderson]]

@@ -1,5 +1,5 @@
 ---
-tags: thoughtful
+tags: [profound, inspiring]
 ---
 
 Author: [[Patrick Rothfuss]]

@@ -1,5 +1,5 @@
 ---
-tags: Paranoid, insightful
+tags: [insightful, clever]
 ---
 
 Author: [[Brent Weeks]]

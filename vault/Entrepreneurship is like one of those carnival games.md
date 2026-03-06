@@ -1,5 +1,5 @@
 ---
-tags: thoughtful, financial
+tags: [insightful]
 ---
 
 Author: [[Unknown]]

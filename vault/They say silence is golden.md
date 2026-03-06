@@ -1,3 +1,6 @@
+---
+tags: [insightful]
+---
 Author: [[Andrzej Sapowski]]
 Book: [[The Last Wish]]
 

@@ -1,5 +1,5 @@
 ---
-tags: encouraging, uplifting, special
+tags: [inspiring]
 ---
 
 Author: [[Brent Weeks]]

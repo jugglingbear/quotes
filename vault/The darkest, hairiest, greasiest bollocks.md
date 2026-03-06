@@ -1,5 +1,5 @@
 ---
-tags:
+tags: [funny, crude]
   - funny
   - cursing
 ---

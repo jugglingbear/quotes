@@ -1,5 +1,5 @@
 ---
-tags: thoughtful, religious
+tags: [insightful, faith]
 ---
 
 Author: [[Brandon Sanderson]]

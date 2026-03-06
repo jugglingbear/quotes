@@ -1,5 +1,5 @@
 ---
-tags: loving, romantic
+tags: [romantic]
 ---
 
 Author: ???

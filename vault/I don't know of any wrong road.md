@@ -1,5 +1,5 @@
 ---
-tags:
+tags: [clever, inspiring]
   - thoughtful
   - road
 ---

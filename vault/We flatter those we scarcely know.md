@@ -1,5 +1,5 @@
 ---
-tags: thoughtful, profound
+tags: [profound, sad]
 ---
 
 Poet: [[Ella Wheeler Wilcox]]

@@ -1,5 +1,5 @@
 ---
-tags: inspirational
+tags: [inspiring]
 ---
 
 Author: ???

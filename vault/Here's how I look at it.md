@@ -1,5 +1,5 @@
 ---
-tags: encouraging, practice, mistakes
+tags: [inspiring, insightful]
 ---
 
 Author: [[Brent Weeks]]

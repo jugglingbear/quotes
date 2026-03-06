@@ -1,5 +1,5 @@
 ---
-tags: [motivational]
+tags: [inspiring]
 ---
 
 Author: [[Brandon Sanderson]]

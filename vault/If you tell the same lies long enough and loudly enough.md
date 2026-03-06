@@ -1,5 +1,5 @@
 ---
-tags: thoughtful, profound
+tags: [profound, dark]
 ---
 
 Author: [[Orson Scott Card]]

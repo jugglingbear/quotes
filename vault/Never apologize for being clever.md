@@ -1,5 +1,5 @@
 ---
-tags: [cautionary, thoughtful]
+tags: [insightful, clever]
 ---
 
 Author: [[Brandon Sanderson]]

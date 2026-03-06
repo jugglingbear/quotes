@@ -1,5 +1,5 @@
 ---
-tags:
+tags: [inspiring]
   - thoughtful
   - therapy
   - encouraging

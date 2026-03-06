@@ -1,5 +1,5 @@
 ---
-tags: [insulting]
+tags: [insult, clever]
 ---
 
 Author: [[Scott Lynch]]

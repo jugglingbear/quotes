@@ -1,5 +1,5 @@
 ---
-tags: insightful, thoughtful
+tags: [insightful, craft]
 ---
 
 Author: [[Brandon Sanderson]]

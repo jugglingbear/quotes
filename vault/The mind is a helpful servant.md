@@ -1,5 +1,5 @@
 ---
-tags: profound
+tags: [profound]
 ---
 
 Author: ???

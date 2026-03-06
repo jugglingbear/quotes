@@ -1,7 +1,5 @@
 ---
-tags:
-  - magic
-  - horse
+tags: [insightful, craft]
 ---
 
 Author: [[Drew Hayes]]

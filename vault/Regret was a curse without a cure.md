@@ -1,5 +1,5 @@
 ---
-tags: regret, thoughtful
+tags: [sad, insightful]
 ---
 
 Author: [[Brent Weeks]]

@@ -1,5 +1,5 @@
 ---
-tags: profound, favorite, imagination, reality
+tags: [profound, favorite, craft]
 ---
 
 Author: [[Martine Leavitt]]

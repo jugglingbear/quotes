@@ -1,5 +1,5 @@
 ---
-tags: [surprising]
+tags: [clever]
 ---
 
 Author: [[CS Lewis]]

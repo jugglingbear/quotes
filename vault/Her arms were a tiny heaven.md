@@ -1,5 +1,5 @@
 ---
-tags:
+tags: [romantic, comforting]
   - love
   - romantic
 ---

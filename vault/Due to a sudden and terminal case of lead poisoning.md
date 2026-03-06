@@ -1,5 +1,5 @@
 ---
-tags:
+tags: [funny, dark]
   - dark
   - funny
 ---

@@ -1,5 +1,5 @@
 ---
-tags: thoughtful, dark
+tags: [insightful, dark]
 ---
 
 Author: [[Joe Abercrombie]]

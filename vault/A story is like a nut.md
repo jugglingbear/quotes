@@ -1,5 +1,5 @@
 ---
-tags: thoughtful
+tags: [insightful, craft]
 ---
 
 Author: [[Patrick Rothfuss]]

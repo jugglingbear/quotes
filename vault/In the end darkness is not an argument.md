@@ -1,5 +1,5 @@
 ---
-tags: fear, darkness, primal
+tags: [profound, dark]
 ---
 
 Author: [[Brent Weeks]]

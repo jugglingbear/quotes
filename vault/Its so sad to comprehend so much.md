@@ -1,5 +1,5 @@
 ---
-tags: thoughtful
+tags: [sad, insightful]
 ---
 
 Author: [[Monica Doke]]

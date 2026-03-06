@@ -1,5 +1,5 @@
 ---
-tags: [angry]
+tags: [angry, dark]
 ---
 
 Author: [[Patrick Rothfuss]]

@@ -1,5 +1,5 @@
 ---
-tags: interesting
+tags: [profound]
 ---
 
 Author: [[Roger Zelany]]

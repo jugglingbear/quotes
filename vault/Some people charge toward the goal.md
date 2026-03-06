@@ -1,3 +1,6 @@
+---
+tags: [inspiring]
+---
 Author: [[Brandon Sanderson]]
 Book: [[The Rhythm of War]]
 

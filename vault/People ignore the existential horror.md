@@ -1,5 +1,5 @@
 ---
-tags:
+tags: [dark, death]
   - thoughtful
   - dark
   - disturbing

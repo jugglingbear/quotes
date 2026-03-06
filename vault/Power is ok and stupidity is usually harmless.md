@@ -1,3 +1,6 @@
+---
+tags: [insightful]
+---
 Author: [[Patrick Rothfuss]]
 Book: [[The Name of the Wind]]
 

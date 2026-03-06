@@ -1,5 +1,5 @@
 ---
-tags: thoughtful, clever
+tags: [clever, insightful]
 ---
 
 Author: [[Brandon Sanderson]]

@@ -1,5 +1,5 @@
 ---
-tags: thoughtful, angry
+tags: [insightful, dark]
 ---
 
 Author: [[Brent Weeks]]

@@ -1,5 +1,5 @@
 ---
-tags:
+tags: [funny]
   - funny
   - self-deprecating
 ---

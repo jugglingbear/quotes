@@ -1,5 +1,5 @@
 ---
-tags: thoughtful, profound
+tags: [profound]
 ---
 
 Author: [[Kurt Vonnegut Jr]]

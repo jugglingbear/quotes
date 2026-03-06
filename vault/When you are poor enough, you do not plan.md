@@ -1,5 +1,5 @@
 ---
-tags: money, poor, thoughtful
+tags: [sad, insightful]
 ---
 
 Author: [[Brent Weeks]]

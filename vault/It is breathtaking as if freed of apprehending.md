@@ -1,5 +1,5 @@
 ---
-tags: flirty, woman, thoughtful
+tags: [romantic, profound]
 ---
 
 Author: [[Brent Weeks]]

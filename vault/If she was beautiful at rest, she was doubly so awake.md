@@ -1,5 +1,5 @@
 ---
-tags: romantic, favorite
+tags: [romantic, favorite]
 ---
 
 Author: [[Patrick Rothfuss]]

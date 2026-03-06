@@ -1,5 +1,5 @@
 ---
-tags: [funny, pessimistic]
+tags: [funny, dark, sad]
 ---
 
 Author: [[Scott Lynch]]

@@ -1,5 +1,5 @@
 ---
-tags: insightful
+tags: [inspiring, insightful]
 ---
 
 Author: [[James Butcher]]

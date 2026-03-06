@@ -1,5 +1,5 @@
 ---
-tags: clever, wordplay
+tags: [clever, romantic]
 ---
 
 Author: [[Patrick Rothfuss]]

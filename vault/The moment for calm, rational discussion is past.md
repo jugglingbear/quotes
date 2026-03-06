@@ -1,5 +1,5 @@
 ---
-tags: funny
+tags: [funny, personal]
 ---
 
 Author: [[Martha Jane Foley]]

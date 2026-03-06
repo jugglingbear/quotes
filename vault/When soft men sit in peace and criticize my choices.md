@@ -1,5 +1,5 @@
 ---
-tags: [arrogant]
+tags: [insult, dark]
 ---
 
 Author: [[Brent Weeks]]

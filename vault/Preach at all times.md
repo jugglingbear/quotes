@@ -1,5 +1,5 @@
 ---
-tags: religious, profound
+tags: [faith, profound]
 ---
 
 Author: [[Brent Weeks]]

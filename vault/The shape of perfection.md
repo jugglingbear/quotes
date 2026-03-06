@@ -1,3 +1,6 @@
+---
+tags: [funny, crude]
+---
 Author: [[Tad Williams]]
 Book: [[Happy Hour in Hell]]
 

@@ -1,5 +1,5 @@
 ---
-tags: funny, dark, sad
+tags: [funny, dark, sad]
 ---
 
 Author: ???

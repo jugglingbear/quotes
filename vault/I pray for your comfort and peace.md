@@ -1,5 +1,5 @@
 ---
-tags: encouraging, emotional
+tags: [comforting, inspiring]
 ---
 
 Author: [[Orson Scott Card]]

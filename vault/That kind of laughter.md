@@ -1,5 +1,5 @@
 ---
-tags:
+tags: [funny, clever]
   - compliment
   - laughter
 ---

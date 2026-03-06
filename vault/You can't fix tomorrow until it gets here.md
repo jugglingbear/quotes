@@ -1,5 +1,5 @@
 ---
-tags: [thoughtful, funny]
+tags: [funny, clever]
 ---
 
 Author: [[Jim Butcher]]

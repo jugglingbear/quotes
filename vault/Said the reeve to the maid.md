@@ -1,5 +1,5 @@
 ---
-tags: [dirty, song, poem]
+tags: [funny, crude]
 ---
 
 Author: [[Scott Lynch]]

@@ -1,5 +1,5 @@
 ---
-tags: parenting, love, logic
+tags: [family, insightful]
 ---
 
 Author: [[Foster Cline]]

@@ -1,3 +1,6 @@
+---
+tags: [funny, dark, personal]
+---
 Author: [[Sean Foley]]
 
 "I thought my life was over. I thought I would never be able to find that special someone. I thought I would be alone forever...

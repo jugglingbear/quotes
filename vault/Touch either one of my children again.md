@@ -1,5 +1,5 @@
 ---
-tags: [crude]
+tags: [crude, angry]
 ---
 
 Author: [[Scott Lynch]]

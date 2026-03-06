@@ -1,5 +1,5 @@
 ---
-tags: arrogant
+tags: [insult, clever]
 ---
 
 Author: [[Orson Scott Card]]

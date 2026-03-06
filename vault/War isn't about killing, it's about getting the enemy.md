@@ -1,5 +1,5 @@
 ---
-tags: profound
+tags: [insightful]
 ---
 
 Author: [[Orson Scott Card]]

@@ -1,3 +1,6 @@
+---
+tags: [dark]
+---
 Author: [[Arthur C. Clarke]]
 Book: [[Childhood's End]]
 

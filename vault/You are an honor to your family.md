@@ -1,5 +1,5 @@
 ---
-tags:
+tags: [comforting]
   - uplifting
   - encouraging
   - compliment

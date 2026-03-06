@@ -1,5 +1,5 @@
 ---
-tags: [inspirational, healing]
+tags: [inspiring, comforting]
 ---
 
 Author: [[Kevin Hearne]]

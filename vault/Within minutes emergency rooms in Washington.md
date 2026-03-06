@@ -1,3 +1,6 @@
+---
+tags: [funny]
+---
 Author: [[Dave Barry]]
 Book: [[Dave Barry's Year in Review 2020]]
 

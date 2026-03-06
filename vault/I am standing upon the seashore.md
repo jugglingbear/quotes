@@ -1,5 +1,5 @@
 ---
-tags: dying, encouraging
+tags: [comforting, death]
 ---
 
 Author: [[Luther F. Beecher]]

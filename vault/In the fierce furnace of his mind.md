@@ -1,5 +1,5 @@
 ---
-tags: thoughtful, insulting
+tags: [insightful, insult]
 ---
 
 Author: [[Stephen King]]

@@ -1,5 +1,5 @@
 ---
-tags: funny, romantic
+tags: [funny, romantic]
 ---
 
 Author: [[Kel Kade]]

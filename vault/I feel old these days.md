@@ -1,3 +1,6 @@
+---
+tags: [sad]
+---
 Author: [[Robert Jordan]]
 Book: [[The Gathering Storm]]
 

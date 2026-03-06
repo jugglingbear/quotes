@@ -1,5 +1,5 @@
 ---
-tags:
+tags: [inspiring]
   - encouraging
   - thoughtful
   - learning

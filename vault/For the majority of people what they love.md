@@ -1,5 +1,5 @@
 ---
-tags: profound, love
+tags: [profound, romantic]
 ---
 
 Author: [[Cixin Liu]]

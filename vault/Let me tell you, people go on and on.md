@@ -1,5 +1,5 @@
 ---
-tags: [funny, thoughtful]
+tags: [funny]
 ---
 
 Author: [[Kevin Hearne]]

@@ -1,5 +1,5 @@
 ---
-tags: [thoughtful]
+tags: [insightful]
 ---
 Author: [[Kazuo Ishiguro]]
 Book: [[Klara and the Sun]]

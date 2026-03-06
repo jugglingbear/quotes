@@ -1,5 +1,5 @@
 ---
-tags: [profound, reassuring]
+tags: [profound, comforting]
 ---
 
 Author: [[Brent Weeks]]

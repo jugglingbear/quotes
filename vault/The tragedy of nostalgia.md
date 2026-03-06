@@ -1,5 +1,5 @@
 ---
-tags:
+tags: [sad, insightful]
   - sad
   - nostalgia
 ---

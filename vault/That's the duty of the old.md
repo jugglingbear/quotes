@@ -1,5 +1,5 @@
 ---
-tags: thoughtful
+tags: [insightful, family]
 ---
 
 Author: [[Phillip Pullman]]

@@ -1,5 +1,5 @@
 ---
-tags: funny, money
+tags: [funny, clever]
 ---
 
 Author: [[Brandon Sanderson]]

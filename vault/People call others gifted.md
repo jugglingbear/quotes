@@ -1,5 +1,5 @@
 ---
-tags: [belittling, arrogant]
+tags: [insightful, insult]
 ---
 
 Author: [[Brent Weeks]]

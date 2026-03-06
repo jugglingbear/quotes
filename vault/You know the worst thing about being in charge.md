@@ -1,3 +1,6 @@
+---
+tags: [insightful]
+---
 Author: [[Brandon Sanderson]]
 Book: [[Skyward]]
 

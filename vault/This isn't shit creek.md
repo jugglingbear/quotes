@@ -1,5 +1,5 @@
 ---
-tags: [panic, funny]
+tags: [funny, crude]
 ---
 
 Author: [[Brent Weeks]]

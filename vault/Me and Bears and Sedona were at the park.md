@@ -1,5 +1,5 @@
 ---
-tags: [Elizabeth, dreams]
+tags: [personal, family]
 ---
 
 Author: [[Elizabeth Christine Foley]]

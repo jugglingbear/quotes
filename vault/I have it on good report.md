@@ -1,5 +1,5 @@
 ---
-tags: [insult]
+tags: [funny, insult, crude]
 ---
 
 Author: [[Patrick Rothfuss]]

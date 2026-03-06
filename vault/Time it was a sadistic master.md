@@ -1,5 +1,5 @@
 ---
-tags: [profound, sad, depressing]
+tags: [profound, sad, death]
 ---
 
 Author: [[Brandon Sanderson]]

@@ -1,5 +1,5 @@
 ---
-tags: [funny, crude]
+tags: [funny, crude, insult]
 ---
 
 Author: [[Scott Lynch]]

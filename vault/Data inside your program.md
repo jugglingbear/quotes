@@ -1,5 +1,5 @@
 ---
-tags: [computer science]
+tags: [clever, craft]
 ---
 
 Author: [[Bill Laboon]]

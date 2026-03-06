@@ -1,5 +1,5 @@
 ---
-tags:
+tags: [dark, funny]
   - fighting
   - weapon
 ---

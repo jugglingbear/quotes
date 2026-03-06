@@ -1,5 +1,5 @@
 ---
-tags: [thoughtful]
+tags: [insightful]
 ---
 
 Author: [[Brandon Sanderson]]

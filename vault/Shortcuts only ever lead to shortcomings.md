@@ -1,5 +1,5 @@
 ---
-tags: clever
+tags: [clever]
 ---
 
 Author: [[Hoggwarts Legacy Game]]

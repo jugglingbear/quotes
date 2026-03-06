@@ -1,5 +1,5 @@
 ---
-tags: funny, dark, poem
+tags: [funny, dark]
 ---
 
 Author: [[/u/poem_for_your_sprog]]

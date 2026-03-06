@@ -1,5 +1,5 @@
 ---
-tags:
+tags: [comforting, profound]
   - thoughtful
   - encouraging
   - home

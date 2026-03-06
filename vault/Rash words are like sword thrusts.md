@@ -1,5 +1,5 @@
 ---
-tags: wisdom, bible
+tags: [faith, insightful]
 ---
 
 Author: [[God]]

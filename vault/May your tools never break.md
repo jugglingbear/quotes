@@ -1,5 +1,5 @@
 ---
-tags: inspiring
+tags: [inspiring]
 ---
 
 Game: [[Horizon Forbidden West]]

@@ -1,5 +1,5 @@
 ---
-tags: [religion]
+tags: [faith, insightful]
 ---
 
 Author: [[Brandon Sanderson]]

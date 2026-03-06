@@ -1,5 +1,5 @@
 ---
-tags: dark
+tags: [dark]
 ---
 
 Author: [[Joe Abercrombie]]

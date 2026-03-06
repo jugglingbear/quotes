@@ -1,5 +1,5 @@
 ---
-tags: funny, insulting, crude
+tags: [funny, insult, crude]
 ---
 
 Author: [[Robert Bevan]]

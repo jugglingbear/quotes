@@ -1,5 +1,5 @@
 ---
-tags:
+tags: [romantic, clever]
   - romantic
 ---
 Author: [[Brandon Sanderson]]

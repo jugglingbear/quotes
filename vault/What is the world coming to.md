@@ -1,3 +1,6 @@
+---
+tags: [dark, funny]
+---
 Author: [[Joe Abercrombie]]
 Book: [[Best Served Cold]]
 

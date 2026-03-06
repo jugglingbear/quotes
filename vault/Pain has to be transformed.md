@@ -1,5 +1,5 @@
 ---
-tags:
+tags: [profound]
   - therapy
   - profound
 ---

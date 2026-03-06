@@ -1,5 +1,5 @@
 ---
-tags: thoughtful, funny, dark
+tags: [funny, dark]
 ---
 
 Author: [[Bill Waterson]]

@@ -1,5 +1,5 @@
 ---
-tags: kids, children, loving, heartfelt
+tags: [family, comforting, favorite]
 ---
 
 Daughter: "Dad, I think I'm old enough now. Is there a Santa Claus?"

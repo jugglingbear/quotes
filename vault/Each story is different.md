@@ -1,5 +1,5 @@
 ---
-tags:
+tags: [insightful, craft]
   - books
   - thoughtful
   - profound
