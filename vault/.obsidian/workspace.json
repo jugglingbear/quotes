@@ -1,0 +1,264 @@
+{
+  "main": {
+    "id": "20e427bc8fa6784e",
+    "type": "split",
+    "children": [
+      {
+        "id": "65c349b35fe6761f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6fe24076e7054646",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Said the reeve to the maid.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Said the reeve to the maid"
+            }
+          },
+          {
+            "id": "ca28549ad0d611b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "The wheel is turning, the fat lazy old hamster.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "The wheel is turning, the fat lazy old hamster"
+            }
+          },
+          {
+            "id": "fe906f4e35206bbf",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.14"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.14"
+            }
+          },
+          {
+            "id": "6464f5c87bfe5b46",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "I want to be so kind that it echoes backwards in time.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "I want to be so kind that it echoes backwards in time"
+            }
+          },
+          {
+            "id": "76f0476e9537d251",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.6"
+            }
+          },
+          {
+            "id": "707dc46a87974b39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "In books, there's always somebody standing by.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "In books, there's always somebody standing by"
+            }
+          },
+          {
+            "id": "baa58abe8eb45f94",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.7"
+            }
+          },
+          {
+            "id": "24380cf7dede9543",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "People ignore the existential horror.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "People ignore the existential horror"
+            }
+          }
+        ],
+        "currentTab": 7
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e143c4810547f51c",
+    "type": "split",
+    "children": [
+      {
+        "id": "4777fb4801d33995",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "63bc6ffed2e0f28b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f8d1bc98e887f8f1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#disturbing",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "aebd1239ba132cb0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 506.5
+  },
+  "right": {
+    "id": "5b818d21694d6571",
+    "type": "split",
+    "children": [
+      {
+        "id": "76cdafbfe9a05bb8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2ae9c3f00a8c9440",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "bbb670baad485230",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false
+    }
+  },
+  "active": "24380cf7dede9543",
+  "lastOpenFiles": [
+    "Those that offer blanket condemnations are fools.md",
+    "You wouldn't be able to handle half of me.md",
+    "I'm sure you guys have some sort of meditation.md",
+    "I have it on good report.md",
+    "Brick-witted cross-eyed sheep fucker.md",
+    "I used to think that a character in a novel was controlled by her creator.md",
+    "I like twilight better.md",
+    "Each story is different.md",
+    "Arrogance and self-worth are two sides to a coin.md",
+    "All men are ignorant.md",
+    "A story is like a nut.md",
+    "Though her tongue was never still.md",
+    "Can there be more soothing music of a morning.md",
+    "He did not want a replacement girlfriend.md",
+    "Her arms were a tiny heaven.md",
+    "Her satisfaction brough vigor to her beauty.md",
+    "You are so used to your features.md",
+    "Once, the Two Rivers had been home.md",
+    "People ignore the existential horror.md",
+    "Woman, your heart is a mapless maze.md",
+    "You meet a girl, shy unassuming.md",
+    "You are my bright penny by the roadside.md",
+    "We stare at a fire because it flickers.md",
+    "If she was beautiful at rest, she was doubly so awake.md",
+    "I intend to so thoroughly ruin this place.md",
+    "asdf.md"
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "main": {
+    "id": "20e427bc8fa6784e",
+    "type": "split",
+    "children": [
+      {
+        "id": "0438de42be852d66",
+        "type": "leaf",
+        "pinned": true,
+        "state": {
+          "type": "graph",
+          "state": {},
+          "pinned": true
+        }
+      },
+      {
+        "id": "524a5371a09086c4",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "I used to think that a character in a novel was controlled by her creator.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e143c4810547f51c",
+    "type": "split",
+    "children": [
+      {
+        "id": "4777fb4801d33995",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "63bc6ffed2e0f28b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "f8d1bc98e887f8f1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tooth and claw",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5b818d21694d6571",
+    "type": "split",
+    "children": [
+      {
+        "id": "76cdafbfe9a05bb8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2ae9c3f00a8c9440",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "I used to think that a character in a novel was controlled by her creator.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bbb670baad485230",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "f8d1bc98e887f8f1",
+  "lastOpenFiles": [
+    "I like twilight better.md",
+    "For the majority of people what they love.md",
+    "Its so sad to comprehend so much.md",
+    "Ideas are not useless simply because they involve.md",
+    "We stare at a fire because it flickers.md",
+    "Sorry if I'm not your cup of tea.md",
+    "May your tools never break.md",
+    "Data inside your program.md",
+    "Expectation that is the true soul of art.md",
+    "He taught me everything I know.md"
+  ]
+}
