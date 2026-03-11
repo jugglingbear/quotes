@@ -1,88 +1,80 @@
 # Quotes Vault
 
-A curated collection of memorable quotes from books I’ve read.
+A curated collection of memorable quotes from books, games, comics, and life.
 
-This repository is maintained as an **Obsidian vault**, where each quote is stored as an individual Markdown note. The goal is to preserve lines that are insightful, funny, profound, or simply worth remembering.
-
-The collection is primarily drawn from novels, science fiction, fantasy, philosophy, and non-fiction.
+This repository is maintained as an **Obsidian vault**, where each quote is stored as an individual Markdown note with YAML frontmatter tags. The collection spans novels, science fiction, fantasy, philosophy, non-fiction, video games, and personal memories.
 
 ---
 
 ## Structure
 
-The repository follows a simple structure:
-
-```
-Quotes/
-    <quote-title>.md
-```
-
-Each file generally contains:
-
-- The quote itself
-- The author
-- The book or source work
-
-Example:
-
-```
-> “Rash words are like sword thrusts.”
-— The Bible, Proverbs 12:18
+```text
+vault/
+  quotes/   ← quote files (Markdown + YAML frontmatter)
+  authors/  ← auto-generated author pages
+tags.md     ← tag inventory with counts and descriptions
 ```
 
-Because each quote is stored as a standalone Markdown file, the vault works well with:
+Each quote file contains YAML frontmatter with tags, an author wikilink, a source work, and the quoted text:
 
-- **Obsidian**
-- **plain Git browsing**
-- **search tools**
-- **static site generators (if desired later)**
+```yaml
+---
+tags: [funny, clever]
+---
+Author: [[Patrick Rothfuss]]
+Book: [[The Name of the Wind]]
+
+"Quoted text here."
+```
+
+Author pages are **auto-generated** and contain tag breakdowns, primary vibes, and works with wikilinked quotes.
 
 ---
 
-## Purpose
+## Tag System
 
-This project exists to:
+18 tags organized into five categories. See [`tags.md`](tags.md) for full descriptions and counts.
 
-- Preserve quotes that resonated with me
-- Maintain a personal reference library
-- Provide a searchable collection of literary passages
-- Share meaningful writing with others
-
-Many quotes are short passages that capture an author's insight about:
-
-- human nature
-- storytelling
-- philosophy
-- humor
-- power
-- love
-- suffering
-- life
+| Category  | Tags                                      |
+|-----------|-------------------------------------------|
+| Tone      | funny, crude, dark, angry                 |
+| Depth     | profound, clever, insightful              |
+| Emotional | inspiring, romantic, sad, comforting      |
+| Subject   | insult, faith, family, death, craft       |
+| Meta      | favorite, personal                        |
 
 ---
 
 ## Using the Vault
 
-You can use this repository in several ways:
-
 ### Open with Obsidian
 
 1. Clone the repo
 2. Open it as an Obsidian vault
-3. Browse or search quotes
+3. Browse or search quotes — author pages and wikilinks connect everything
 
 ### Browse on GitHub
 
 Each quote is stored in an individual Markdown file for easy reading.
 
-### Use as a dataset
+---
 
-Because each quote is isolated in its own file, the repository can also be used for:
+## GitHub Copilot Commands
 
-- text analysis
-- writing inspiration
-- personal quote collections
-- educational purposes
+This repo includes custom instructions for GitHub Copilot (in `.github/copilot-instructions.md`). The following commands are available in Copilot Chat:
+
+### "Sync the repo"
+
+Regenerates all derived files from the quote source files:
+
+1. **Rebuilds `tags.md`** — rescans all quotes, updates tag counts, flags unknown tags
+2. **Rebuilds all `vault/authors/` pages** — deletes and regenerates every author page from scratch with updated stats, works, and tag breakdowns
+
+Run this after adding, editing, or removing quote files.
+
+### "Add a quote"
+
+Copilot will create a new quote file in `vault/quotes/` with proper frontmatter, tags from the 18-tag system, author wikilink, and source work.
 
 ---
 
@@ -90,28 +82,9 @@ Because each quote is isolated in its own file, the repository can also be used 
 
 All quotations remain the **copyright of their respective authors and publishers**.
 
-Quotes are included here under **fair use** for purposes of:
-
-- reference
-- scholarship
-- commentary
-- literary appreciation
-
-No attempt is made to reproduce substantial portions of any copyrighted work.
+Quotes are included here under **fair use** for purposes of reference, scholarship, commentary, and literary appreciation. No attempt is made to reproduce substantial portions of any copyrighted work.
 
 The **structure, formatting, and metadata** of this repository are licensed under the repository license.
-
----
-
-## Future Ideas
-
-Possible future improvements:
-
-- tagging quotes by theme
-- author and book index pages
-- full-text search interface
-- quote-of-the-day generator
-- static website version
 
 ---
 
@@ -120,5 +93,3 @@ Possible future improvements:
 See the `LICENSE` file for details.
 
 The license applies to the **repository structure and original content**, not to the quoted works themselves.
-
----
