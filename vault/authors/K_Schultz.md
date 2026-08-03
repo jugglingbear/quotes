@@ -1,4 +1,4 @@
-# Katie Schultz
+# K. Schultz
 
 **1 quotes**
 

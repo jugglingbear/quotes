@@ -2,7 +2,7 @@
 tags: [personal, family]
 ---
 
-Author: [[Elizabeth Christine Foley]]
+Author: [[ECF]]
 Book: None
 Date: April 20, 2020
 
@@ -11,4 +11,3 @@ Date: April 20, 2020
 Bears was hanging on to ta tree branch and Sedona was hanging onto something else. I wanted to save them both but they were on opposite sides of the park!
 
 I was able to save Sedona but Bears fell..."
-

@@ -1,4 +1,4 @@
-# Billy Hall
+# B. Hall
 
 **1 quotes**
 

@@ -30,7 +30,8 @@ Book: [[The Name of the Wind]]
 "Quoted text here."
 ```
 
-- The `Author:` line uses an Obsidian wikilink: `[[First Last]]`.
+- The `Author:` line uses an Obsidian wikilink: `[[First Last]]` or `[[Author_ID|Display Name]]` when the clean
+  filename differs from the displayed name.
 - Source fields vary: `Book:`, `Game:`, `Comic:`, `Source:`, `Developer:`, `Poet:`, etc.
 - A few edge-case files lack an `Author:` line (e.g. dialogue format, personal memoir).
 
@@ -68,7 +69,9 @@ Assign **1–4 tags** per quote. Prefer specificity over volume.
 
 ## Author Page Format
 
-Author pages live in `vault/authors/` with filename `First_M._Last.md` (spaces → underscores, periods preserved). Each page is **auto-generated** and should not be hand-edited. Format:
+Author pages live in `vault/authors/`. Simple author names use underscores in place of spaces. An aliased author link
+such as `[[M_Contolencu|M. Contolencu]]` uses the link target (`M_Contolencu.md`) as the filename. Each page is
+**auto-generated** and should not be hand-edited. Format:
 
 ```markdown
 # Display Name
@@ -119,14 +122,15 @@ Scan every `vault/quotes/*.md` file and build the complete desired author-page c
 
 1. **Parse each quote file** to extract:
    - Tags from YAML frontmatter
-   - Author name from `Author: [[Name]]` line (strip wikilink brackets)
+   - Author identity from the `Author:` wikilink. For `[[Target|Display Name]]`, use `Target` as the filename ID and
+     `Display Name` as the author name; otherwise use the link text for both.
    - Source work from `Book:`, `Game:`, `Comic:`, `Source:`, `Developer:`, `Poet:` lines (strip wikilink brackets)
    - Source type (the field name, e.g. "Game", "Comic" — default to "Book" if `Book:` is used)
 
 2. **Group quotes by author**, then by work.
 
 3. **Generate the author page** following the format above:
-   - Filename: author name with spaces replaced by underscores (`_`), preserving dots and other punctuation
+   - Filename: aliased links use the link target plus `.md`; simple links replace spaces with underscores (`_`)
    - `[[Unknown]]` or no usable attribution → `Unknown_Author.md`
    - Quote count, work count, tag breakdown sorted by count descending
    - "Primary vibes" line for authors with 3+ quotes (top 3 tags)
