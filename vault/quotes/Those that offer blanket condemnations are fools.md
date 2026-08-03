@@ -1,8 +1,5 @@
 ---
 tags: [insightful]
-  - thoughtful
-  - chastize
-  - advice
 ---
 Author: [[Brandon Sanderson]]
 Book: [[Wind and Truth]]

@@ -1,7 +1,5 @@
 ---
 tags: [profound]
-  - therapy
-  - profound
 ---
 Source: [[Stephen Wise]]
 

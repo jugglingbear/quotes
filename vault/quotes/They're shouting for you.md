@@ -1,7 +1,5 @@
 ---
 tags: [inspiring]
-  - encouraging
-  - thoughtful
 ---
 
 Author: [[Norton Juster]]

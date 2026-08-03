@@ -1,7 +1,5 @@
 ---
 tags: [sad, insightful]
-  - sad
-  - nostalgia
 ---
 Author: [Tale Foundry](https://www.youtube.com/@TheTaleFoundry)
 
