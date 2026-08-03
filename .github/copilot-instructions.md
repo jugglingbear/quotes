@@ -112,9 +112,10 @@ Scan every `vault/quotes/*.md` file, extract the `tags: [...]` frontmatter, and 
 
 If any tag appears in a quote file that is **not** in the 18-tag system, flag it as a warning.
 
-### 2. Regenerate all `vault/authors/` pages
+### 2. Reconcile all `vault/authors/` pages in place
 
-Delete all existing files in `vault/authors/`, then scan every `vault/quotes/*.md` file and rebuild each author page from scratch:
+Scan every `vault/quotes/*.md` file and build the complete desired author-page contents in memory. Then reconcile
+`vault/authors/` without deleting the directory or its existing pages first:
 
 1. **Parse each quote file** to extract:
    - Tags from YAML frontmatter
@@ -126,17 +127,25 @@ Delete all existing files in `vault/authors/`, then scan every `vault/quotes/*.m
 
 3. **Generate the author page** following the format above:
    - Filename: author name with spaces replaced by underscores (`_`), preserving dots and other punctuation
-   - `???` or `Unknown` → `Unknown_Author.md`
+   - `[[Unknown]]` or no usable attribution → `Unknown_Author.md`
    - Quote count, work count, tag breakdown sorted by count descending
    - "Primary vibes" line for authors with 3+ quotes (top 3 tags)
    - Works sections with H3 headings, source type annotation if not a Book, wikilinked quote titles
    - Quotes with no identified work go under `### Other`
 
-4. **Report a summary**: number of author pages created, total quotes processed, any warnings (missing authors, unknown tags, etc.).
+4. **Write the desired pages**:
+   - Rewrite an existing author page in place when its generated content has changed.
+   - Leave an existing page untouched when its content already matches.
+   - Create pages that do not exist yet.
+   - Report obsolete pages that are no longer in the desired author set. Do not delete them without explicit
+     per-file confirmation from the user.
+
+5. **Report a summary**: numbers of author pages created, updated, unchanged, and obsolete; total quotes processed;
+   and any warnings (missing authors, unknown tags, etc.).
 
 ### Implementation Notes
 
-- Use a Python script for the sync. Create it, run it, then delete it.
+- Use a Python heredoc for the sync so no transient script needs to be created or deleted.
 - The script should be idempotent — safe to run repeatedly.
 - Do not modify any quote files during sync. Sync is read-only on quotes.
 - Always validate the output: confirm file counts, spot-check a large author and a small one.
@@ -170,4 +179,3 @@ Instead, use one of these safe alternatives:
 - **Temporary file** — write a `.py` file via `create_file`, execute it, then delete it.
 
 Reserve `python3 -c` only for trivial one-liners with no special characters in the data.
-

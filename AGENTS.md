@@ -4,18 +4,26 @@ This file is the **agent-agnostic** source of truth for AI coding assistants wor
 repository (Copilot, Claude Code, Cursor, Aider, Codex, Continue, etc.). Tool-specific extensions,
 if any, live alongside it (e.g. `.github/copilot-instructions.md`, `.github/instructions/*.md`).
 
-> Replace the bracketed placeholders below with your project's specifics, then delete this note.
-
 ---
 
 ## Project Overview
 
-- **What this is:** [one-line description of the project]
-- **Primary language(s):** [e.g. Python 3.11–3.13, TypeScript]
-- **Package/build tooling:** [e.g. Poetry, npm, cargo, go modules]
-- **Linters / formatters:** [e.g. ruff, flake8, pylint, mypy / eslint, prettier]
-- **Test framework:** [e.g. pytest, vitest, go test]
-- **Docs:** [e.g. MkDocs, Docusaurus]
+- **What this is:** A curated Obsidian vault of memorable quotes from published works and personal life.
+- **Primary languages:** Markdown and YAML; Python is used for maintenance automation.
+- **Package/build tooling:** Obsidian; there is no package manager or build system.
+- **Linters / formatters:** markdownlint-cli2, configured by `.markdownlint.json`.
+- **Test framework:** No formal test suite; synchronization includes structural and count validation.
+- **Docs:** `README.md`, `docs/`, `tags.md`, and `.github/copilot-instructions.md`.
+
+## Repository Layout and Workflows
+
+- `vault/quotes/` contains the source-of-truth quote notes.
+- `vault/authors/` contains derived author indexes; reconcile them in place rather than deleting them first.
+- `tags.md` is the derived tag inventory and must agree with the quote frontmatter.
+- `vault/.obsidian/` contains the shared Obsidian vault configuration.
+- `docs/` contains project documentation that does not belong inside the vault.
+- Before adding a quote or synchronizing derived files, read `.github/copilot-instructions.md` for the complete
+  project-specific format, tag vocabulary, reconciliation procedure, and validation steps.
 
 ---
 

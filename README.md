@@ -68,7 +68,8 @@ This repo includes custom instructions for GitHub Copilot (in `.github/copilot-i
 Regenerates all derived files from the quote source files:
 
 1. **Rebuilds `tags.md`** — rescans all quotes, updates tag counts, flags unknown tags
-2. **Rebuilds all `vault/authors/` pages** — deletes and regenerates every author page from scratch with updated stats, works, and tag breakdowns
+2. **Reconciles all `vault/authors/` pages** — rewrites existing pages in place, creates missing pages, and reports
+   obsolete pages for explicit deletion approval
 
 Run this after adding, editing, or removing quote files.
 

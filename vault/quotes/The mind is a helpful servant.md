@@ -2,7 +2,6 @@
 tags: [profound]
 ---
 
-Author: ???
+Author: [[Unknown]]
 
 "The mind is a helpful servant but a terrifying master."
-
