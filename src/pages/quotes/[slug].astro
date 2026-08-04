@@ -1,0 +1,58 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { withBase } from "../../lib/paths";
+import { getQuotes, type Quote } from "../../lib/quotes";
+
+export function getStaticPaths() {
+  return getQuotes().map((quote) => ({ params: { slug: quote.slug }, props: { quote } }));
+}
+
+interface Props {
+  quote: Quote;
+}
+
+const { quote } = Astro.props;
+const paragraphs = quote.text.split(/\n\s*\n/);
+---
+
+<BaseLayout title={quote.title} description={`${quote.text.slice(0, 150)}…`}>
+  <div class="detail-layout">
+    <aside class="detail-aside">
+      <dl>
+        <dt>Author</dt>
+        <dd><a href={withBase(`/authors/${quote.author.slug}/`)}>{quote.author.label}</a></dd>
+
+        {
+          quote.work && (
+            <>
+              <dt>{quote.work.type}</dt>
+              <dd><a href={withBase(`/books/${quote.work.slug}/`)}>{quote.work.label}</a></dd>
+            </>
+          )
+        }
+
+        {
+          quote.date && (
+            <>
+              <dt>Date</dt>
+              <dd>{quote.date}</dd>
+            </>
+          )
+        }
+
+        <dt>Tags</dt>
+        <dd class="tag-list">
+          {quote.tags.map((tag) => <a href={withBase(`/tags/${tag}/`)}>#{tag}</a>)}
+        </dd>
+      </dl>
+    </aside>
+
+    <article class="detail-content">
+      <p class="eyebrow">Quotation</p>
+      <h1>{quote.title}</h1>
+      <blockquote class="detail-quote">
+        {paragraphs.map((paragraph) => <p>{paragraph}</p>)}
+      </blockquote>
+    </article>
+  </div>
+</BaseLayout>

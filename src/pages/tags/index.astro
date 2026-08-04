@@ -1,0 +1,27 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { withBase } from "../../lib/paths";
+import { getTags } from "../../lib/quotes";
+
+const tags = getTags();
+---
+
+<BaseLayout title="Tags" description="Browse the quote collection by mood, tone, and subject.">
+  <header class="page-heading">
+    <p class="eyebrow">Browse the collection</p>
+    <h1>Tags</h1>
+    <p>Eighteen broad trails through the collection, from funny and clever to comforting and profound.</p>
+  </header>
+
+  <section class="facet-grid">
+    {
+      tags.map((tag) => (
+        <a class="facet-card" href={withBase(`/tags/${tag.name}/`)}>
+          <span>{tag.count} {tag.count === 1 ? "quote" : "quotes"}</span>
+          <strong>#{tag.name}</strong>
+          <small>{tag.description}</small>
+        </a>
+      ))
+    }
+  </section>
+</BaseLayout>

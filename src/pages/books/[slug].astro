@@ -1,0 +1,39 @@
+---
+import QuoteCard from "../../components/QuoteCard.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getWorks, type WorkSummary } from "../../lib/quotes";
+
+export function getStaticPaths() {
+  return getWorks().map((work) => ({ params: { slug: work.slug }, props: { work } }));
+}
+
+interface Props {
+  work: WorkSummary;
+}
+
+const { work } = Astro.props;
+---
+
+<BaseLayout title={work.label} description={`Browse ${work.quotes.length} quotations from ${work.label}.`}>
+  <header class="page-heading">
+    <p class="eyebrow">{work.type}</p>
+    <h1>{work.label}</h1>
+    <p>
+      {work.quotes.length} {work.quotes.length === 1 ? "quote" : "quotes"} by
+      {" "}{work.authors.map((author) => author.label).join(", ")}.
+    </p>
+  </header>
+
+  <div class="tag-list" aria-label="Most common tags">
+    {work.tags.map((tag) => <span class="pill">#{tag.name} · {tag.count}</span>)}
+  </div>
+
+  <div class="section-heading">
+    <h2>Quotations</h2>
+    <p>{work.quotes.length} in the collection</p>
+  </div>
+
+  <section class="quote-grid">
+    {work.quotes.map((quote) => <QuoteCard quote={quote} />)}
+  </section>
+</BaseLayout>

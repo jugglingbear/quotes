@@ -1,0 +1,20 @@
+---
+import { withBase } from "../lib/paths";
+---
+
+<header class="site-header">
+  <a class="brand" href={withBase("/")} aria-label="Quotes home">
+    <span class="brand-mark" aria-hidden="true">“</span>
+    <span>
+      <strong>Quotes</strong>
+      <small>A commonplace book</small>
+    </span>
+  </a>
+
+  <nav aria-label="Main navigation">
+    <a href={withBase("/")}>Search</a>
+    <a href={withBase("/authors/")}>Authors</a>
+    <a href={withBase("/books/")}>Books</a>
+    <a href={withBase("/tags/")}>Tags</a>
+  </nav>
+</header>

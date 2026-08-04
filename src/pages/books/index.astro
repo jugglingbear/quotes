@@ -1,0 +1,27 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { withBase } from "../../lib/paths";
+import { getWorks } from "../../lib/quotes";
+
+const works = getWorks();
+---
+
+<BaseLayout title="Books & sources" description="Browse quotations by book, game, poem, and other source.">
+  <header class="page-heading">
+    <p class="eyebrow">Browse the collection</p>
+    <h1>Books &amp; sources</h1>
+    <p>Books lead the shelves, with games, songs, poems, comics, and other sources mixed in.</p>
+  </header>
+
+  <section class="facet-grid">
+    {
+      works.map((work) => (
+        <a class="facet-card" href={withBase(`/books/${work.slug}/`)}>
+          <span>{work.type} · {work.quotes.length} {work.quotes.length === 1 ? "quote" : "quotes"}</span>
+          <strong>{work.label}</strong>
+          <small>{work.authors.map((author) => author.label).join(", ")}</small>
+        </a>
+      ))
+    }
+  </section>
+</BaseLayout>

@@ -57,6 +57,40 @@ Author pages are **auto-generated** and contain tag breakdowns, primary vibes, a
 
 Each quote is stored in an individual Markdown file for easy reading.
 
+### Browse on the web
+
+The repository includes an Astro site with full-text search and filters for authors, books, sources, and tags. The
+site is built from the files in `vault/quotes/`; no separate database or copied quote collection is maintained.
+
+Run `make install` to check the required Node.js and pnpm versions and install the site dependencies. On macOS,
+the command can install missing or incompatible prerequisites after asking for confirmation before each system
+change. Then use the remaining Makefile commands:
+
+```bash
+make install
+make help
+make serve-local
+```
+
+The local site is available at [http://127.0.0.1:4321/quotes/](http://127.0.0.1:4321/quotes/).
+Repeated `make serve-local` calls report the existing server instead of starting a duplicate. Use `make status-local`
+to inspect it and `make stop-local` to stop it.
+
+To validate a production build:
+
+```bash
+make check
+```
+
+After committing changes on a clean `main` branch, publish them with:
+
+```bash
+make publish
+```
+
+`make publish` validates the site and pushes `main` to `origin`. The GitHub Pages workflow then builds and deploys
+the site. In the repository's GitHub Pages settings, select **GitHub Actions** as the publishing source the first time.
+
 ---
 
 ## GitHub Copilot Commands

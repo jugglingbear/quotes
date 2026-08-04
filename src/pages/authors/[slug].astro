@@ -1,0 +1,42 @@
+---
+import QuoteCard from "../../components/QuoteCard.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getAuthors, type AuthorSummary } from "../../lib/quotes";
+
+export function getStaticPaths() {
+  return getAuthors().map((author) => ({ params: { slug: author.slug }, props: { author } }));
+}
+
+interface Props {
+  author: AuthorSummary;
+}
+
+const { author } = Astro.props;
+---
+
+<BaseLayout
+  title={author.label}
+  description={`Browse ${author.quotes.length} quotations attributed to ${author.label}.`}
+>
+  <header class="page-heading">
+    <p class="eyebrow">Author</p>
+    <h1>{author.label}</h1>
+    <p>
+      {author.quotes.length} {author.quotes.length === 1 ? "quote" : "quotes"}
+      {author.works.length ? ` across ${author.works.length} ${author.works.length === 1 ? "work" : "works"}` : ""}.
+    </p>
+  </header>
+
+  <div class="tag-list" aria-label="Most common tags">
+    {author.tags.map((tag) => <span class="pill">#{tag.name} · {tag.count}</span>)}
+  </div>
+
+  <div class="section-heading">
+    <h2>Quotations</h2>
+    <p>{author.quotes.length} in the collection</p>
+  </div>
+
+  <section class="quote-grid">
+    {author.quotes.map((quote) => <QuoteCard quote={quote} />)}
+  </section>
+</BaseLayout>

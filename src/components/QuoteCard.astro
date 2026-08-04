@@ -1,0 +1,43 @@
+---
+import type { Quote } from "../lib/quotes";
+import { withBase } from "../lib/paths";
+
+interface Props {
+  quote: Quote;
+}
+
+const { quote } = Astro.props;
+---
+
+<article
+  class="quote-card"
+  data-author={quote.author.slug}
+  data-href={withBase(quote.href)}
+  data-quote-card
+  data-search={quote.searchText}
+  data-tags={quote.tags.join(" ")}
+  data-work={quote.work?.slug ?? ""}
+>
+  <blockquote>
+    <p>{quote.text}</p>
+  </blockquote>
+
+  <div class="quote-card__credit">
+    <a href={withBase(`/authors/${quote.author.slug}/`)}>{quote.author.label}</a>
+    {
+      quote.work && (
+        <>
+          <span aria-hidden="true">·</span>
+          <a href={withBase(`/books/${quote.work.slug}/`)}>{quote.work.label}</a>
+        </>
+      )
+    }
+  </div>
+
+  <div class="quote-card__footer">
+    <div class="tag-list" aria-label="Tags">
+      {quote.tags.map((tag) => <a href={withBase(`/tags/${tag}/`)}>#{tag}</a>)}
+    </div>
+    <a class="read-link" href={withBase(quote.href)} aria-label={`Read ${quote.title}`}>Read</a>
+  </div>
+</article>

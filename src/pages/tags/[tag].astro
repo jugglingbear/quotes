@@ -1,0 +1,27 @@
+---
+import QuoteCard from "../../components/QuoteCard.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getTags, type TagSummary } from "../../lib/quotes";
+
+export function getStaticPaths() {
+  return getTags().map((tag) => ({ params: { tag: tag.name }, props: { tag } }));
+}
+
+interface Props {
+  tag: TagSummary;
+}
+
+const { tag } = Astro.props;
+---
+
+<BaseLayout title={`#${tag.name}`} description={`Browse ${tag.count} ${tag.name} quotations.`}>
+  <header class="page-heading">
+    <p class="eyebrow">Tag</p>
+    <h1>#{tag.name}</h1>
+    <p>{tag.description}. {tag.count} {tag.count === 1 ? "quote" : "quotes"} in the collection.</p>
+  </header>
+
+  <section class="quote-grid">
+    {tag.quotes.map((quote) => <QuoteCard quote={quote} />)}
+  </section>
+</BaseLayout>

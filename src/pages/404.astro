@@ -1,0 +1,13 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { withBase } from "../lib/paths";
+---
+
+<BaseLayout title="Page not found">
+  <header class="page-heading">
+    <p class="eyebrow">404</p>
+    <h1>This page wandered off.</h1>
+    <p>The quotation or collection you requested could not be found.</p>
+  </header>
+  <p><a class="button" href={withBase("/")}>Return to the collection</a></p>
+</BaseLayout>

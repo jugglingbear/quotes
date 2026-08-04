@@ -1,0 +1,41 @@
+---
+import Header from "../components/Header.astro";
+import { withBase } from "../lib/paths";
+import "../styles/global.css";
+
+interface Props {
+  description?: string;
+  title?: string;
+}
+
+const {
+  description = "Search and browse a personal collection of memorable quotations.",
+  title = "Quotes",
+} = Astro.props;
+const pageTitle = title === "Quotes" ? title : `${title} · Quotes`;
+const canonicalUrl = Astro.site ? new URL(Astro.url.pathname, Astro.site) : undefined;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content={description} />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="theme-color" content="#f4eddf" />
+    {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
+    <title>{pageTitle}</title>
+  </head>
+  <body>
+    <div class="page-shell">
+      <Header />
+      <main id="main-content">
+        <slot />
+      </main>
+      <footer class="site-footer">
+        <p>A personal commonplace book, built from an Obsidian vault.</p>
+        <a href={withBase("/")}>Return to search</a>
+      </footer>
+    </div>
+  </body>
+</html>

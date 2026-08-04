@@ -1,0 +1,27 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getAuthors } from "../../lib/quotes";
+import { withBase } from "../../lib/paths";
+
+const authors = getAuthors();
+---
+
+<BaseLayout title="Authors" description="Browse the quote collection by author and creator.">
+  <header class="page-heading">
+    <p class="eyebrow">Browse the collection</p>
+    <h1>Authors</h1>
+    <p>Writers, poets, creators, friends, and other voices represented in the collection.</p>
+  </header>
+
+  <section class="facet-grid">
+    {
+      authors.map((author) => (
+        <a class="facet-card" href={withBase(`/authors/${author.slug}/`)}>
+          <span>{author.quotes.length} {author.quotes.length === 1 ? "quote" : "quotes"}</span>
+          <strong>{author.label}</strong>
+          <small>{author.tags.slice(0, 3).map((tag) => `#${tag.name}`).join(" · ")}</small>
+        </a>
+      ))
+    }
+  </section>
+</BaseLayout>

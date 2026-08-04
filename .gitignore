@@ -5,4 +5,10 @@
 vault/.obsidian/workspace
 vault/.obsidian/workspace.json
 
+# Astro build and dependency output.
+.astro/
+dist/
+node_modules/
+.pnpm-store/
+
 temp

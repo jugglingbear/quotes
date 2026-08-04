@@ -1,0 +1,230 @@
+---
+import QuoteCard from "../components/QuoteCard.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { withBase } from "../lib/paths";
+import { getAuthors, getQuotes, getTags, getWorks } from "../lib/quotes";
+
+const HERO_QUOTE_MAX_LENGTH = 280;
+const quotes = getQuotes();
+const authors = getAuthors(quotes);
+const works = getWorks(quotes);
+const tags = getTags(quotes);
+const initialHeroQuote = quotes.find((quote) => quote.text.length <= HERO_QUOTE_MAX_LENGTH) ?? quotes[0];
+
+if (!initialHeroQuote) {
+  throw new Error("The landing page requires at least one quote");
+}
+---
+
+<BaseLayout>
+  <section class="hero">
+    <div>
+      <h1>Words worth keeping</h1>
+
+      <figure class="hero-quote" id="hero-quote" aria-live="polite">
+        <blockquote>
+          <p id="hero-quote-text">{initialHeroQuote.text}</p>
+        </blockquote>
+
+        <figcaption>
+          <div class="hero-quote__credit">
+            <span aria-hidden="true">—</span>
+            <span id="hero-quote-credit">
+              <a href={withBase(`/authors/${initialHeroQuote.author.slug}/`)}>{initialHeroQuote.author.label}</a>
+              {
+                initialHeroQuote.work && (
+                  <>
+                    <span aria-hidden="true">·</span>
+                    <a href={withBase(`/books/${initialHeroQuote.work.slug}/`)}>{initialHeroQuote.work.label}</a>
+                  </>
+                )
+              }
+            </span>
+          </div>
+
+          <div class="hero-quote__actions">
+            <a class="read-link" id="hero-quote-link" href={withBase(initialHeroQuote.href)}>Read quote</a>
+            <button
+              class="button button--quiet hero-quote__another"
+              id="another-hero-quote"
+              type="button"
+              aria-controls="hero-quote"
+              hidden
+            >
+              Another quote
+            </button>
+          </div>
+        </figcaption>
+      </figure>
+    </div>
+
+    <div class="hero-stats" aria-label="Collection statistics">
+      <div><strong>{quotes.length}</strong><span>quotes</span></div>
+      <div><strong>{authors.length}</strong><span>authors</span></div>
+      <div><strong>{works.length}</strong><span>works</span></div>
+      <div><strong>{tags.length}</strong><span>tags</span></div>
+    </div>
+  </section>
+
+  <section class="search-panel" aria-label="Search and filter quotes">
+    <div class="search-row">
+      <label class="search-field">
+        <span aria-hidden="true">⌕</span>
+        <input id="quote-search" type="search" placeholder="Search quotes, authors, books, or tags…" />
+      </label>
+
+      <label>
+        <span class="visually-hidden">Filter by author</span>
+        <select id="author-filter">
+          <option value="">All authors</option>
+          {authors.map((author) => <option value={author.slug}>{author.label} ({author.quotes.length})</option>)}
+        </select>
+      </label>
+
+      <label>
+        <span class="visually-hidden">Filter by book or source</span>
+        <select id="work-filter">
+          <option value="">All books &amp; sources</option>
+          {works.map((work) => <option value={work.slug}>{work.label} ({work.quotes.length})</option>)}
+        </select>
+      </label>
+
+      <label>
+        <span class="visually-hidden">Filter by tag</span>
+        <select id="tag-filter">
+          <option value="">All tags</option>
+          {tags.map((tag) => <option value={tag.name}>#{tag.name} ({tag.count})</option>)}
+        </select>
+      </label>
+
+      <button class="button button--quiet" id="reset-filters" type="button">Reset</button>
+    </div>
+  </section>
+
+  <div class="result-bar">
+    <p><strong id="result-count">{quotes.length}</strong> quotes in view</p>
+    <button class="button" id="random-quote" type="button">Surprise me</button>
+  </div>
+
+  <section class="quote-grid" id="quote-grid" aria-live="polite">
+    {quotes.map((quote) => <QuoteCard quote={quote} />)}
+  </section>
+
+  <div class="empty-state" id="empty-state" hidden>
+    <h2>No quotes found</h2>
+    <p>Try a broader search or clear one of the filters.</p>
+  </div>
+</BaseLayout>
+
+<script>
+  function requireElement<T extends Element>(selector: string): T {
+    const element = document.querySelector<T>(selector);
+    if (!element) {
+      throw new Error(`Required element not found: ${selector}`);
+    }
+    return element;
+  }
+
+  const searchInput = requireElement<HTMLInputElement>("#quote-search");
+  const authorFilter = requireElement<HTMLSelectElement>("#author-filter");
+  const workFilter = requireElement<HTMLSelectElement>("#work-filter");
+  const tagFilter = requireElement<HTMLSelectElement>("#tag-filter");
+  const resetButton = requireElement<HTMLButtonElement>("#reset-filters");
+  const randomButton = requireElement<HTMLButtonElement>("#random-quote");
+  const anotherHeroQuoteButton = requireElement<HTMLButtonElement>("#another-hero-quote");
+  const heroQuoteText = requireElement<HTMLElement>("#hero-quote-text");
+  const heroQuoteCredit = requireElement<HTMLElement>("#hero-quote-credit");
+  const heroQuoteLink = requireElement<HTMLAnchorElement>("#hero-quote-link");
+  const resultCount = document.querySelector<HTMLElement>("#result-count");
+  const emptyState = document.querySelector<HTMLElement>("#empty-state");
+  const cards = [...document.querySelectorAll<HTMLElement>("[data-quote-card]")];
+  const heroCandidates = cards.filter((card) => {
+    const text = card.querySelector("blockquote p")?.textContent?.trim() ?? "";
+    return text.length > 0 && text.length <= 280;
+  });
+  let heroQuoteIndex = 0;
+
+  function normalize(value: string): string {
+    return value.trim().toLocaleLowerCase();
+  }
+
+  function applyFilters(): void {
+    const query = normalize(searchInput.value);
+    const author = authorFilter.value;
+    const work = workFilter.value;
+    const tag = tagFilter.value;
+    let visibleCount = 0;
+
+    for (const card of cards) {
+      const matchesQuery = !query || normalize(card.dataset.search ?? "").includes(query);
+      const matchesAuthor = !author || card.dataset.author === author;
+      const matchesWork = !work || card.dataset.work === work;
+      const matchesTag = !tag || (card.dataset.tags ?? "").split(" ").includes(tag);
+      const visible = matchesQuery && matchesAuthor && matchesWork && matchesTag;
+      card.hidden = !visible;
+      visibleCount += visible ? 1 : 0;
+    }
+
+    if (resultCount) {
+      resultCount.textContent = String(visibleCount);
+    }
+    if (emptyState) {
+      emptyState.hidden = visibleCount !== 0;
+    }
+  }
+
+  function showHeroQuote(card: HTMLElement): void {
+    const text = card.querySelector<HTMLElement>("blockquote p")?.textContent?.trim();
+    const credit = card.querySelector<HTMLElement>(".quote-card__credit");
+    const href = card.dataset.href;
+    if (!text || !credit || !href) {
+      return;
+    }
+
+    heroQuoteText.textContent = text;
+    heroQuoteCredit.replaceChildren(...[...credit.childNodes].map((node) => node.cloneNode(true)));
+    heroQuoteLink.href = href;
+  }
+
+  if (heroCandidates.length > 0) {
+    const now = new Date();
+    const dayNumber = Math.floor(Date.UTC(now.getFullYear(), now.getMonth(), now.getDate()) / 86_400_000);
+    heroQuoteIndex = (Math.imul(dayNumber, 2_654_435_761) >>> 0) % heroCandidates.length;
+    showHeroQuote(heroCandidates[heroQuoteIndex]);
+    anotherHeroQuoteButton.hidden = heroCandidates.length < 2;
+  }
+
+  for (const control of [searchInput, authorFilter, workFilter, tagFilter]) {
+    control.addEventListener("input", applyFilters);
+  }
+
+  resetButton.addEventListener("click", () => {
+    searchInput.value = "";
+    authorFilter.value = "";
+    workFilter.value = "";
+    tagFilter.value = "";
+    applyFilters();
+    searchInput.focus();
+  });
+
+  randomButton.addEventListener("click", () => {
+    const visibleCards = cards.filter((card) => !card.hidden);
+    const card = visibleCards[Math.floor(Math.random() * visibleCards.length)];
+    if (card?.dataset.href) {
+      window.location.assign(card.dataset.href);
+    }
+  });
+
+  anotherHeroQuoteButton.addEventListener("click", () => {
+    const offset = 1 + Math.floor(Math.random() * (heroCandidates.length - 1));
+    heroQuoteIndex = (heroQuoteIndex + offset) % heroCandidates.length;
+    showHeroQuote(heroCandidates[heroQuoteIndex]);
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "/" && document.activeElement !== searchInput) {
+      event.preventDefault();
+      searchInput.focus();
+    }
+  });
+</script>

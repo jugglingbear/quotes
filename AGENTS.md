@@ -9,10 +9,14 @@ if any, live alongside it (e.g. `.github/copilot-instructions.md`, `.github/inst
 ## Project Overview
 
 - **What this is:** A curated Obsidian vault of memorable quotes from published works and personal life.
-- **Primary languages:** Markdown and YAML; Python is used for maintenance automation.
-- **Package/build tooling:** Obsidian; there is no package manager or build system.
-- **Linters / formatters:** markdownlint-cli2, configured by `.markdownlint.json`.
-- **Test framework:** No formal test suite; synchronization includes structural and count validation.
+- **Primary languages:** Markdown and YAML for vault content; Astro, TypeScript, and CSS for the web UI;
+  Python is used for maintenance automation.
+- **Package/build tooling:** Obsidian for vault management; Astro and pnpm for the web UI; GitHub Actions
+  deploys the site to GitHub Pages.
+- **Linters / formatters:** markdownlint-cli2, configured by `.markdownlint.json`; Astro and TypeScript
+  validation runs through `astro check`.
+- **Test framework:** No formal test suite; `make check` runs Astro, TypeScript, content, and production-build
+  validation, while synchronization includes structural and count validation.
 - **Docs:** `README.md`, `docs/`, `tags.md`, and `.github/copilot-instructions.md`.
 
 ## Repository Layout and Workflows
@@ -22,6 +26,8 @@ if any, live alongside it (e.g. `.github/copilot-instructions.md`, `.github/inst
 - `tags.md` is the derived tag inventory and must agree with the quote frontmatter.
 - `vault/.obsidian/` contains the shared Obsidian vault configuration.
 - `docs/` contains project documentation that does not belong inside the vault.
+- `src/` contains the Astro web UI, including pages, components, layouts, styles, and quote-data helpers.
+- `.github/workflows/deploy-pages.yml` builds and deploys the web UI to GitHub Pages.
 - Before adding a quote or synchronizing derived files, read `.github/copilot-instructions.md` for the complete
   project-specific format, tag vocabulary, reconciliation procedure, and validation steps.
 
@@ -174,7 +180,71 @@ Applies to `**/Makefile`, `**/*.mk`.
 - Internal/helper targets get **no** `##` comment (keeps them out of the help listing).
 - Standard targets to provide where relevant: `check`, `install`, `lint`, `test`, `coverage`,
   `build`, `clean`.
-- `##@ Section` grouping headers are **opt-in** — only add them for long target lists.
+- Group user-facing targets under one or more **`##@ Section` headers**. Section headers are part of the
+  standard help format and are required even for short Makefiles; use a single `##@ Commands` section when
+  additional categories would add noise.
+
+### Colorized self-documenting help
+
+Every Makefile should render a scannable, colorized help listing when a user types `make` or
+`make help`. Use a single awk pass over `$(MAKEFILE_LIST)` that walks targets in **source order**
+(don't pipe through `sort` — it breaks source ordering and `##@` grouping):
+
+```makefile
+.DEFAULT_GOAL := help
+
+##@ Commands
+
+.PHONY: help
+help:  ## Show this help message
+	@printf "\n\033[1mProject Name — available targets:\033[0m\n"
+	@awk 'BEGIN {FS = ":.*?## "} \
+		/^##@ / { printf "\n\033[1;38;5;208m%s\033[0m\n", substr($$0, 5); next } \
+		/^[a-zA-Z0-9_-]+:.*?## / { printf "  \033[97m%-22s\033[0m %s\n", $$1, $$2 }' \
+		$(MAKEFILE_LIST)
+	@printf "\n"
+```
+
+- Use **`printf`, never `echo`**, for ANSI escapes — `echo` behavior varies across shells and may
+  print `\033` literally.
+- Bump the `%-22s` column width if target names are longer.
+
+### ANSI color scheme
+
+| Code | Color | Usage |
+|------|-------|-------|
+| `\033[1m` | **Bold** | Top-level help banner (`Project — available targets:`) |
+| `\033[0m` | Reset | End of styled text |
+| `\033[1;38;5;208m` | Bold orange (256-color) | `##@` section headers in `make help` |
+| `\033[97m` | Bright white | Target names in help |
+| `\033[32m` | Green | Success messages |
+| `\033[31m` | Red | Error messages |
+| `\033[33m` | Yellow | Warnings |
+
+Orange headers + bright-white target names is the standard scheme — warm, high-contrast, and
+readable on both light and dark backgrounds. The `38;5;208` 256-color code works in every modern
+terminal; fall back to plain `\033[33m` yellow only for known 16-color-only TTYs. Avoid
+magenta/cyan for headers and targets (harder to read on light backgrounds).
+
+### Emoji progress markers
+
+Use emoji as visual markers in `@printf` output to make build progress scannable:
+
+| Emoji | Meaning | Emoji | Meaning |
+|-------|---------|-------|---------|
+| ✅ | Success / check passed | 📦 | Building / packaging |
+| ❌ | Failure / check failed | 🔄 | Reinstalling / refreshing |
+| 🧪 | Running tests | 🌐 | Serving / networking |
+| 🧹 | Linting / formatting | 🎯 | Coverage analysis |
+| 🧼 | Cleaning artifacts | ☣️ | Destructive / cache-clearing |
+
+### Upgrading an existing Makefile
+
+When editing a Makefile that lacks the self-documenting help system, **ask the user first**. If
+they agree: add the `help` target as the first target, set `.DEFAULT_GOAL := help`, add
+`## Description` comments to user-facing targets, group those targets beneath `##@` section markers,
+add missing `.PHONY` declarations, and verify the output (section headings bold orange, target names
+bright white, all in source order).
 
 ---
 
