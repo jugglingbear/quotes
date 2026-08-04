@@ -1,6 +1,6 @@
 # Tags
 
-18 tags across 279 quotes (520 total usages, ~1.9 per quote).
+18 tags across 281 quotes (528 total usages, ~1.9 per quote).
 
 ## Tone
 
@@ -8,24 +8,24 @@
 |-------|-------|--------------------------------|
 | funny |    91 | Humorous, witty, comedic       |
 | crude |    31 | Vulgar, profane, raunchy       |
-| dark  |    40 | Grim, bleak, sinister          |
+| dark  |    41 | Grim, bleak, sinister          |
 | angry |     7 | Wrathful, aggressive, outraged |
 
 ## Depth
 
 | Tag        | Count | Description                        |
 |------------|-------|------------------------------------|
-| profound   |    68 | Deep truth, philosophical weight   |
+| profound   |    70 | Deep truth, philosophical weight   |
 | clever     |    35 | Sharp wordplay, elegant logic      |
-| insightful |    77 | Keen observation, wisdom           |
+| insightful |    79 | Keen observation, wisdom           |
 
 ## Emotional
 
 | Tag        | Count | Description                |
 |------------|-------|----------------------------|
-| inspiring  |    30 | Motivating, uplifting      |
+| inspiring  |    31 | Motivating, uplifting      |
 | romantic   |    20 | Love, passion, devotion    |
-| sad        |    12 | Grief, loss, melancholy    |
+| sad        |    13 | Grief, loss, melancholy    |
 | comforting |    20 | Reassuring, warm, gentle   |
 
 ## Subject
@@ -36,7 +36,7 @@
 | faith  |     6 | Religion, spirituality, belief       |
 | family |    11 | Parents, children, home              |
 | death  |     8 | Mortality, dying, the end            |
-| craft  |    27 | Storytelling, art, creative process  |
+| craft  |    28 | Storytelling, art, creative process  |
 
 ## Meta
 
