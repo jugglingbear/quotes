@@ -1,5 +1,6 @@
 ---
 import QuoteCard from "../../components/QuoteCard.astro";
+import TagFilter from "../../components/TagFilter.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getAuthors, type AuthorSummary } from "../../lib/quotes";
 
@@ -27,16 +28,14 @@ const { author } = Astro.props;
     </p>
   </header>
 
-  <div class="tag-list" aria-label="Most common tags">
-    {author.tags.map((tag) => <span class="pill">#{tag.name} · {tag.count}</span>)}
-  </div>
+  <TagFilter tags={author.tags} />
 
   <div class="section-heading">
     <h2>Quotations</h2>
-    <p>{author.quotes.length} in the collection</p>
+    <p aria-live="polite"><span data-filtered-quote-count>{author.quotes.length}</span> in the collection</p>
   </div>
 
-  <section class="quote-grid">
+  <section id="quote-grid" class="quote-grid">
     {author.quotes.map((quote) => <QuoteCard quote={quote} />)}
   </section>
 </BaseLayout>

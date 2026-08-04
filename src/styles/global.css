@@ -499,6 +499,7 @@ h3 {
   align-items: center;
   min-height: 28px;
   padding: 4px 9px;
+  border: 0;
   border-radius: 999px;
   background: #eee7d9;
   color: var(--sage);
@@ -511,6 +512,23 @@ h3 {
 .pill:hover {
   background: var(--paper-deep);
   color: var(--rust-dark);
+}
+
+.pill[aria-pressed="true"] {
+  background: var(--rust-dark);
+  color: var(--card);
+}
+
+.pill[aria-pressed="true"]:hover {
+  background: var(--rust);
+  color: var(--card);
+}
+
+.tag-filter__clear {
+  background: transparent;
+  color: var(--rust-dark);
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
 }
 
 .read-link {

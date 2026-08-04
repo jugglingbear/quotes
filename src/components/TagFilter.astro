@@ -1,0 +1,71 @@
+---
+import type { CountedTag } from "../lib/quotes";
+
+interface Props {
+  tags: CountedTag[];
+}
+
+const { tags } = Astro.props;
+---
+
+<div class="tag-filter" data-local-tag-filter>
+  <div class="tag-list" aria-label="Filter quotations by tag">
+    {
+      tags.map((tag) => (
+        <button
+          class="pill"
+          type="button"
+          aria-controls="quote-grid"
+          aria-pressed="false"
+          data-tag-filter={tag.name}
+        >
+          #{tag.name} · {tag.count}
+        </button>
+      ))
+    }
+    <button class="pill tag-filter__clear" type="button" data-clear-tag-filter hidden>Show all</button>
+  </div>
+</div>
+
+<script>
+  function setupTagFilter(root: HTMLElement): void {
+    const tagButtons = [...root.querySelectorAll<HTMLButtonElement>("[data-tag-filter]")];
+    const clearButton = root.querySelector<HTMLButtonElement>("[data-clear-tag-filter]");
+    const resultCount = document.querySelector<HTMLElement>("[data-filtered-quote-count]");
+    const cards = [...document.querySelectorAll<HTMLElement>("[data-quote-card]")];
+    let activeTag = "";
+
+    function applyTagFilter(tag: string): void {
+      activeTag = tag === activeTag ? "" : tag;
+      let visibleCount = 0;
+
+      for (const card of cards) {
+        const cardTags = (card.dataset.tags ?? "").split(" ");
+        const visible = !activeTag || cardTags.includes(activeTag);
+        card.hidden = !visible;
+        visibleCount += visible ? 1 : 0;
+      }
+
+      for (const button of tagButtons) {
+        button.setAttribute("aria-pressed", String(button.dataset.tagFilter === activeTag));
+      }
+
+      if (clearButton) {
+        clearButton.hidden = !activeTag;
+      }
+      if (resultCount) {
+        resultCount.textContent = String(visibleCount);
+      }
+    }
+
+    for (const button of tagButtons) {
+      button.addEventListener("click", () => applyTagFilter(button.dataset.tagFilter ?? ""));
+    }
+
+    clearButton?.addEventListener("click", () => applyTagFilter(""));
+  }
+
+  for (const root of document.querySelectorAll<HTMLElement>("[data-local-tag-filter]")) {
+    setupTagFilter(root);
+  }
+</script>
