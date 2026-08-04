@@ -1,11 +1,11 @@
 # Jim Butcher
 
-**19 quotes** from **12 works**
+**20 quotes** from **12 works**
 
 ## Tags
 
-`profound` (10) · `funny` (8) · `dark` (3) · `comforting` (3) · `clever` (3) · `insightful` (3) ·
-`death` (2) · `insult` (2) · `craft` (2) · `inspiring` (1) · `angry` (1) · `crude` (1)
+`profound` (11) · `funny` (8) · `insightful` (4) · `dark` (3) · `comforting` (3) · `clever` (3) ·
+`death` (2) · `insult` (2) · `craft` (2) · `inspiring` (2) · `angry` (1) · `crude` (1)
 
 *Primary vibes: profound, funny, dark.*
 
@@ -57,6 +57,7 @@
 
 ### Twelve Months
 
+- [[Discipline discipline discipline]]
 - [[Good men hurt]]
 - [[I mean technically Tab A Slot B]]
 - [[So unless you want the next communication]]

@@ -1,18 +1,19 @@
 # Matthew Stover
 
-**3 quotes** from **2 works**
+**4 quotes** from **2 works**
 
 ## Tags
 
-`funny` (2) · `crude` (1) · `insult` (1) · `dark` (1) · `clever` (1) ·
-`profound` (1) · `insightful` (1) · `inspiring` (1)
+`funny` (2) · `profound` (2) · `insightful` (2) · `crude` (1) · `insult` (1) ·
+`dark` (1) · `clever` (1) · `craft` (1) · `inspiring` (1)
 
-*Primary vibes: funny, crude, insult*
+*Primary vibes: funny, profound, insightful*
 
 ## Works
 
 ### Blade of Tyshalle
 
+- [[Art was not merely the creation of beauty]]
 - [[I don't think I've invited you lately]]
 
 ### Heroes Die

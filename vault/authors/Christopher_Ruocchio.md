@@ -1,13 +1,14 @@
 # Christopher Ruocchio
 
-**1 quote** from **1 work**
+**2 quotes** from **1 work**
 
 ## Tags
 
-`insightful` (1) · `profound` (1)
+`insightful` (2) · `profound` (2) · `romantic` (1)
 
 ## Works
 
 ### Empire of Silence
 
+- [[At the other end of my private affections]]
 - [[My memory is to the world]]

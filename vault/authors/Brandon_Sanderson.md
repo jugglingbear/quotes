@@ -1,12 +1,12 @@
 # Brandon Sanderson
 
-**47 quotes** from **15 works**
+**51 quotes** from **15 works**
 
 ## Tags
 
-`insightful` (20) · `profound` (17) · `clever` (8) · `funny` (7) · `craft` (7) · `inspiring` (7) ·
-`comforting` (4) · `angry` (3) · `death` (3) · `dark` (3) · `insult` (2) · `faith` (2) ·
-`favorite` (1) · `crude` (1) · `sad` (1) · `romantic` (1)
+`insightful` (23) · `profound` (20) · `inspiring` (9) · `clever` (8) · `funny` (7) · `craft` (7) ·
+`comforting` (6) · `angry` (4) · `dark` (4) · `death` (3) · `insult` (2) · `faith` (2) ·
+`romantic` (2) · `favorite` (1) · `crude` (1) · `sad` (1)
 
 *Primary vibes: insightful, profound, clever*
 
@@ -88,10 +88,14 @@
 ### Wind and Truth
 
 - [[Feeling is real enough]]
+- [[I believe that in nothing are we so blessed]]
 - [[It's not that I'm healed]]
 - [[Maybe emotions don't make us weak]]
+- [[My life is yours]]
+- [[So you want to replace something grand with nothing]]
 - [[The darkest, hairiest, greasiest bollocks]]
 - [[Those that offer blanket condemnations are fools]]
+- [[We're on a journey]]
 
 ### Words of Radiance
 
