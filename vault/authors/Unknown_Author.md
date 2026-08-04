@@ -1,17 +1,18 @@
 # Unknown
 
-**13 quotes** from **1 work**
+**14 quotes** from **1 work**
 
 ## Tags
 
-`inspiring` (4) · `insightful` (3) · `funny` (3) · `family` (2) · `comforting` (2) ·
-`profound` (2) · `favorite` (1) · `craft` (1) · `dark` (1) · `sad` (1) · `romantic` (1)
+`inspiring` (4) · `funny` (4) · `insightful` (3) · `family` (2) · `comforting` (2) ·
+`profound` (2) · `favorite` (1) · `craft` (1) · `dark` (1) · `sad` (1) · `romantic` (1) · `crude` (1)
 
-*Primary vibes: inspiring, insightful, funny*
+*Primary vibes: inspiring, funny, insightful*
 
 ## Works
 
 ### Horizon Forbidden West
+
 *Game*
 
 - [[May your tools never break]]
@@ -20,6 +21,7 @@
 
 - [[A job is more than a paycheck]]
 - [[Ask me about my Attention Defecit Disorder]]
+- [[Double wrist twist gluck gluck hawk tuah]]
 - [[Entrepreneurship is like one of those carnival games]]
 - [[I want to be so kind that it echoes backwards in time]]
 - [[If an egg is broken by outside force]]

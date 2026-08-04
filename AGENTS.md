@@ -121,6 +121,9 @@ Applies to `**/*.py`.
 
 Applies to `**/*.md`. All generated Markdown should be lint-clean.
 
+- Before generating or modifying Markdown, read `docs/markdown-standards.md` for the detailed formatting and
+  validation workflow.
+
 - **Line length: 120 characters max.** Reflow long lines at logical points.
 - **Headings surrounded by blank lines** (MD022).
 - **Lists surrounded by blank lines** (MD032).
@@ -143,7 +146,8 @@ Applies to `**/*.md`. All generated Markdown should be lint-clean.
 - **Mermaid diagrams:** wrap each block with per-block `<!-- markdownlint-disable MD013 -->` /
   `<!-- markdownlint-enable MD013 -->` directives, since diagram labels routinely exceed the line
   limit. Don't globally disable MD013 in code blocks.
-- Validate with: `npx markdownlint-cli2 --config .markdownlint.json <file>.md`.
+- Validate one file with: `pnpm exec markdownlint-cli2 --config .markdownlint.json <file>.md`.
+- Validate changed Markdown with: `pnpm run lint:markdown` or `make lint`.
 
 ---
 

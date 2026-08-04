@@ -1,10 +1,11 @@
 # Joe Abercrombie
 
-**18 quotes** from **9 works**
+**20 quotes** from **10 works**
 
 ## Tags
 
-`dark` (8) · `funny` (8) · `insightful` (4) · `profound` (3) · `insult` (3) · `crude` (2) · `clever` (2) · `family` (1) · `sad` (1)
+`dark` (10) · `funny` (9) · `insightful` (5) · `profound` (3) · `insult` (3) ·
+`crude` (2) · `clever` (2) · `family` (1) · `sad` (1)
 
 *Primary vibes: dark, funny, insightful*
 
@@ -42,6 +43,11 @@
 ### Red Country
 
 - [[The bottle is a shifty banker]]
+
+### The Devils
+
+- [[He had seen grand betrayal]]
+- [[She was starting to suspect she wasn't dead]]
 
 ### The Problem with Peace
 

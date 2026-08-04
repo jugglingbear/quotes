@@ -8,6 +8,7 @@
     "build": "ASTRO_TELEMETRY_DISABLED=1 astro build",
     "check": "ASTRO_TELEMETRY_DISABLED=1 astro check",
     "dev": "ASTRO_TELEMETRY_DISABLED=1 astro dev --host 127.0.0.1",
+    "lint:markdown": "bash scripts/lint-markdown.sh",
     "preview": "ASTRO_TELEMETRY_DISABLED=1 astro preview --host 127.0.0.1"
   },
   "dependencies": {
@@ -16,6 +17,7 @@
   "devDependencies": {
     "@astrojs/check": "0.9.10",
     "@types/node": "24.13.3",
+    "markdownlint-cli2": "0.23.2",
     "typescript": "6.0.3"
   }
 }

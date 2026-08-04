@@ -15,8 +15,10 @@
 ## Formatting Rules
 
 ### Headings (MD022)
+
 - **Must be surrounded by blank lines**
 - Example:
+
   ```markdown
   Some paragraph text.
 
@@ -26,8 +28,10 @@
   ```
 
 ### Lists (MD032)
+
 - **Must be surrounded by blank lines**
 - Example:
+
   ```markdown
   Some paragraph text.
 
@@ -39,9 +43,11 @@
   ```
 
 ### URLs (MD034)
+
 - **Use proper Markdown link syntax** `[text](url)`
 - **Do NOT use bare URLs**
 - Example:
+
   ```markdown
   <!-- Correct -->
   See the [documentation](https://example.com/docs) for details.
@@ -59,35 +65,33 @@
 **Use this command to check markdown files for linting errors:**
 
 ```bash
-npx markdownlint-cli2 --config .markdownlint.json <filename>.md
+pnpm exec markdownlint-cli2 --config .markdownlint.json <filename>.md
 ```
 
 This directly invokes markdownlint-cli2 and shows all errors with line numbers and rule codes.
 
 **Example:**
-```bash
-npx markdownlint-cli2 --config .markdownlint.json pywsdk_public.md
-```
-
-### Pre-Commit Hooks
-
-The repository uses pre-commit hooks for Markdown validation, but they only run on files matching `^docs/.*\.md$`
-(files in the docs/ directory).
 
 ```bash
-# Run manually on all files (only checks docs/*.md)
-poetry run pre-commit run --all-files
-
-# Install hooks (one-time setup)
-poetry run pre-commit install
+pnpm exec markdownlint-cli2 --config .markdownlint.json README.md
 ```
 
-**Note:** Pre-commit hooks will NOT check markdown files outside the docs/ directory. Use the direct npx command above
-for files in the repo root or other locations.
+### Changed-File Linting
+
+Run the package script directly or use the Makefile target. When the worktree is clean, these commands validate the
+Markdown files changed by the newest commit:
+
+```bash
+pnpm run lint:markdown
+make lint
+```
+
+`make check` also runs Markdown linting before the Astro and production-build checks.
 
 ### What the Linter Checks
 
 The markdownlint-cli2 tool enforces:
+
 - Line length ≤ 120 characters (MD013)
 - Headings surrounded by blank lines (MD022)
 - Lists surrounded by blank lines (MD032)
@@ -119,4 +123,4 @@ Before submitting Markdown files, verify:
 - [ ] No trailing whitespace
 - [ ] File ends with exactly one newline
 - [ ] No markdownlint errors in VS Code
-- [ ] `poetry run pre-commit run --all-files` passes
+- [ ] `make lint` passes

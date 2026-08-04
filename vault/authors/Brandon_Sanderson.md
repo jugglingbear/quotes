@@ -1,10 +1,12 @@
 # Brandon Sanderson
 
-**43 quotes** from **13 works**
+**47 quotes** from **15 works**
 
 ## Tags
 
-`insightful` (16) · `profound` (14) · `clever` (8) · `funny` (7) · `craft` (6) · `inspiring` (5) · `angry` (3) · `death` (3) · `dark` (3) · `insult` (2) · `comforting` (2) · `faith` (2) · `favorite` (1) · `crude` (1) · `sad` (1) · `romantic` (1)
+`insightful` (20) · `profound` (17) · `clever` (8) · `funny` (7) · `craft` (7) · `inspiring` (7) ·
+`comforting` (4) · `angry` (3) · `death` (3) · `dark` (3) · `insult` (2) · `faith` (2) ·
+`favorite` (1) · `crude` (1) · `sad` (1) · `romantic` (1)
 
 *Primary vibes: insightful, profound, clever*
 
@@ -13,6 +15,10 @@
 ### A Memory of LIght
 
 - [[All men are ignorant]]
+
+### Isles of the Emberdark
+
+- [[The future would come whether you wanted it or not]]
 
 ### Mitosis
 
@@ -46,6 +52,10 @@
 
 - [[We live stories every day]]
 
+### The Original
+
+- [[What makes art real]]
+
 ### The Rhythm of War
 
 - [[Do not dismiss your own talents]]
@@ -78,6 +88,8 @@
 ### Wind and Truth
 
 - [[Feeling is real enough]]
+- [[It's not that I'm healed]]
+- [[Maybe emotions don't make us weak]]
 - [[The darkest, hairiest, greasiest bollocks]]
 - [[Those that offer blanket condemnations are fools]]
 

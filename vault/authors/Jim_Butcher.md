@@ -1,12 +1,13 @@
 # Jim Butcher
 
-**15 quotes** from **11 works**
+**19 quotes** from **12 works**
 
 ## Tags
 
-`profound` (8) · `funny` (6) · `dark` (3) · `death` (2) · `insult` (2) · `comforting` (2) · `insightful` (1) · `inspiring` (1) · `craft` (1) · `clever` (1)
+`profound` (10) · `funny` (8) · `dark` (3) · `comforting` (3) · `clever` (3) · `insightful` (3) ·
+`death` (2) · `insult` (2) · `craft` (2) · `inspiring` (1) · `angry` (1) · `crude` (1)
 
-*Primary vibes: profound, funny, dark*
+*Primary vibes: profound, funny, dark.*
 
 ## Works
 
@@ -53,6 +54,13 @@
 ### The Olympian Affair
 
 - [[Fate is simply the accumulation of choices]]
+
+### Twelve Months
+
+- [[Good men hurt]]
+- [[I mean technically Tab A Slot B]]
+- [[So unless you want the next communication]]
+- [[You can't pick a favorite]]
 
 ### White Knight
 

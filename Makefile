@@ -7,7 +7,7 @@ NODE_HOMEBREW_FORMULA := node@24
 PNPM_VERSION := 11.9.0
 LOCAL_SITE_URL := http://127.0.0.1:4321/quotes/
 
-.PHONY: help install serve-local status-local stop-local build preview check publish clean
+.PHONY: help install serve-local status-local stop-local build preview lint check publish clean
 
 ##@ General
 
@@ -132,7 +132,12 @@ preview: build ## Preview the production build locally.
 	@printf "\033[33m🌐 Previewing the production build…\033[0m\n"
 	@$(PNPM) run preview
 
-check: install ## Validate Astro, TypeScript, content, and the production build.
+lint: install ## Lint changed Markdown files.
+	@printf "\033[33m🧹 Linting changed Markdown files…\033[0m\n"
+	@$(PNPM) run lint:markdown
+	@printf "\033[32m✅ Markdown lint passed.\033[0m\n"
+
+check: lint ## Validate Markdown, Astro, TypeScript, content, and the production build.
 	@printf "\033[33m🧪 Checking Astro, TypeScript, and content…\033[0m\n"
 	@$(PNPM) run check
 	@printf "\033[33m📦 Verifying the production build…\033[0m\n"

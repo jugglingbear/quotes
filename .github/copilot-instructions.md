@@ -4,7 +4,7 @@
 
 **Before generating or modifying files**, read the relevant specialized guide:
 
-- **Markdown files:** Read `.github/copilot-markdown.md` for formatting and validation rules
+- **Markdown files:** Read `docs/markdown-standards.md` for formatting and validation rules
 
 
 ## Vault Structure

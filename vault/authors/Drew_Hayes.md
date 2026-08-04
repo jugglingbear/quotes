@@ -1,10 +1,10 @@
 # Drew Hayes
 
-**3 quotes** from **3 works**
+**4 quotes** from **4 works**
 
 ## Tags
 
-`funny` (2) · `dark` (1) · `insightful` (1) · `craft` (1)
+`funny` (3) · `dark` (1) · `insightful` (1) · `craft` (1) · `clever` (1)
 
 *Primary vibes: funny, dark, insightful*
 
@@ -13,6 +13,10 @@
 ### Corpies
 
 - [[I'm sure you guys have some sort of meditation]]
+
+### Forging Hephaestus
+
+- [[Hi how's it going]]
 
 ### Split the Party
 
