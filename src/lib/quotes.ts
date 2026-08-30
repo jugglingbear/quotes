@@ -191,6 +191,13 @@ function stripOuterQuotationMarks(content: string): string {
   return content;
 }
 
+function normalizeQuoteText(content: string): string {
+  return content
+    .split(/\n\s*\n/)
+    .map((paragraph) => paragraph.replace(/\s*\n\s*/g, " ").trim())
+    .join("\n\n");
+}
+
 function findCreator(metadata: Map<string, string>): Reference {
   for (const field of CREATOR_FIELDS) {
     const rawValue = metadata.get(field);
@@ -240,7 +247,7 @@ function parseQuote(path: string): Quote {
   const slug = slugify(title);
   const tags = parseTags(frontmatter[1], path);
   const parsedBody = collectMetadata(raw.replace(FRONTMATTER_PATTERN, ""));
-  const content = stripOuterQuotationMarks(parsedBody.content);
+  const content = normalizeQuoteText(stripOuterQuotationMarks(parsedBody.content));
   const { metadata } = parsedBody;
   const author = findCreator(metadata);
   const work = findWork(metadata, author);
