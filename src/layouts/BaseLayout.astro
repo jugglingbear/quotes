@@ -34,7 +34,16 @@ const canonicalUrl = Astro.site ? new URL(Astro.url.pathname, Astro.site) : unde
       </main>
       <footer class="site-footer">
         <p>A personal commonplace book, built from an Obsidian vault.</p>
-        <a href={withBase("/")}>Return to search</a>
+        <div class="site-footer__links">
+          <a href={withBase("/")}>Return to search</a>
+          <a
+            class="repository-link"
+            href="https://github.com/jugglingbear/quotes"
+            aria-label="View the Quotes repository on GitHub"
+          >
+            GitHub <span aria-hidden="true">↗</span>
+          </a>
+        </div>
       </footer>
     </div>
   </body>
