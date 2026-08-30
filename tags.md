@@ -1,12 +1,12 @@
 # Tags
 
-18 tags across 281 quotes (528 total usages, ~1.9 per quote).
+18 tags across 283 quotes (532 total usages, ~1.9 per quote).
 
 ## Tone
 
 | Tag   | Count | Description                    |
 |-------|-------|--------------------------------|
-| funny |    91 | Humorous, witty, comedic       |
+| funny |    92 | Humorous, witty, comedic       |
 | crude |    31 | Vulgar, profane, raunchy       |
 | dark  |    41 | Grim, bleak, sinister          |
 | angry |     7 | Wrathful, aggressive, outraged |
@@ -15,9 +15,9 @@
 
 | Tag        | Count | Description                        |
 |------------|-------|------------------------------------|
-| profound   |    70 | Deep truth, philosophical weight   |
-| clever     |    35 | Sharp wordplay, elegant logic      |
-| insightful |    79 | Keen observation, wisdom           |
+| profound   |    71 | Deep truth, philosophical weight   |
+| clever     |    36 | Sharp wordplay, elegant logic      |
+| insightful |    80 | Keen observation, wisdom           |
 
 ## Emotional
 
