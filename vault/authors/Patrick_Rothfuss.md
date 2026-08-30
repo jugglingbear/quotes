@@ -4,7 +4,8 @@
 
 ## Tags
 
-`insightful` (6) · `romantic` (6) · `favorite` (5) · `clever` (4) · `funny` (4) · `profound` (4) · `craft` (3) · `insult` (2) · `crude` (1) · `angry` (1) · `dark` (1) · `death` (1) · `inspiring` (1) · `family` (1)
+`insightful` (6) · `romantic` (6) · `favorite` (5) · `clever` (4) · `funny` (4) · `profound` (4) · `craft` (3) ·
+`insult` (2) · `crude` (1) · `angry` (1) · `dark` (1) · `death` (1) · `inspiring` (1) · `family` (1)
 
 *Primary vibes: insightful, romantic, favorite*
 
@@ -13,7 +14,7 @@
 ### The Name of the Wind
 
 - [[Five fingers and flesh with blood beneath]]
-- [[He had a bright wreckless tenor]]
+- [[He had a bright reckless tenor]]
 - [[He taught me everything I know]]
 - [[I have it on good report]]
 - [[I swear by the night sky]]

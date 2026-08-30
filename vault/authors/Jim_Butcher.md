@@ -1,6 +1,6 @@
 # Jim Butcher
 
-**20 quotes** from **12 works**
+**20 quotes** from **11 works**
 
 ## Tags
 
@@ -11,12 +11,9 @@
 
 ## Works
 
-### Battle Grounds
+### Battle Ground
 
 - [[Death isn't where your body stops working]]
-
-### Battlegrounds
-
 - [[Hate]]
 - [[You can't fix tomorrow until it gets here]]
 
@@ -37,7 +34,7 @@
 ### Ghost Story
 
 - [[Pain isn't a lot of fun]]
-- [[What is teaching but the art of planting and nuturing power]]
+- [[What is teaching but the art of planting and nurturing power]]
 
 ### Proven Guilty
 

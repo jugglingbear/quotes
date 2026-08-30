@@ -4,7 +4,8 @@
 
 ## Tags
 
-`insightful` (6) · `profound` (4) · `romantic` (3) · `inspiring` (3) · `dark` (3) · `comforting` (2) · `insult` (2) · `sad` (2) · `clever` (1) · `faith` (1) · `funny` (1) · `crude` (1)
+`insightful` (6) · `profound` (4) · `romantic` (3) · `inspiring` (3) · `dark` (3) · `comforting` (2) · `insult` (2) ·
+`sad` (2) · `clever` (1) · `faith` (1) · `funny` (1) · `crude` (1)
 
 *Primary vibes: insightful, profound, romantic*
 
@@ -36,7 +37,7 @@
 
 ### The Burning White
 
-- [[Her satisfaction brough vigor to her beauty]]
+- [[Her satisfaction brought vigor to her beauty]]
 - [[People call others gifted]]
 
 ### The Way of Shadows

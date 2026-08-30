@@ -1,11 +1,12 @@
 # Unknown
 
-**14 quotes** from **1 work**
+**15 quotes** from **2 works**
 
 ## Tags
 
 `inspiring` (4) · `funny` (4) · `insightful` (3) · `family` (2) · `comforting` (2) ·
-`profound` (2) · `favorite` (1) · `craft` (1) · `dark` (1) · `sad` (1) · `romantic` (1) · `crude` (1)
+`profound` (2) · `favorite` (1) · `craft` (1) · `dark` (1) · `sad` (1) · `romantic` (1) · `crude` (1) ·
+`clever` (1)
 
 *Primary vibes: inspiring, funny, insightful*
 
@@ -17,10 +18,16 @@
 
 - [[May your tools never break]]
 
+### Hogwarts Legacy
+
+*Game*
+
+- [[Shortcuts only ever lead to shortcomings]]
+
 ### Other
 
 - [[A job is more than a paycheck]]
-- [[Ask me about my Attention Defecit Disorder]]
+- [[Ask me about my Attention Deficit Disorder]]
 - [[Double wrist twist gluck gluck hawk tuah]]
 - [[Entrepreneurship is like one of those carnival games]]
 - [[I want to be so kind that it echoes backwards in time]]

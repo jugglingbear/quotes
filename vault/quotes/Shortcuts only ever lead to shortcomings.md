@@ -2,7 +2,6 @@
 tags: [clever]
 ---
 
-Author: [[Hoggwarts Legacy Game]]
+Game: [[Hogwarts Legacy]]
 
-"Shortcuts over ever lead to shortcomings"
-
+"Shortcuts only ever lead to shortcomings."

@@ -15,9 +15,9 @@
 
 - [[Power is a mountain]]
 - [[The body of a hero]]
-- [[We cant correct the misapprehensions]]
+- [[We can't correct the misapprehensions]]
 
-### Before They are Hanged
+### Before They Are Hanged
 
 - [[The years pass and the unimaginable becomes every day]]
 
@@ -51,7 +51,7 @@
 
 ### The Problem with Peace
 
-- [[Its easy to scream about the fence]]
+- [[It's easy to scream about the fence]]
 - [[Rare anger can be inspiring]]
 - [[Shes mad as a shield made of bread]]
 

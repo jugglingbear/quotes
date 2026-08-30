@@ -12,7 +12,7 @@
 
 ## Works
 
-### A Memory of LIght
+### A Memory of Light
 
 - [[All men are ignorant]]
 
@@ -38,11 +38,11 @@
 ### Skyward
 
 - [[A pox of unique human diseases]]
-- [[You know the worst thing about being in charge]]
 
 ### Starsight
 
 - [[I will see you mourn]]
+- [[You know the worst thing about being in charge]]
 
 ### The Bands of Mourning
 
@@ -75,7 +75,7 @@
 ### Tress of the Emerald Sea
 
 - [[Arrogance and self-worth are two sides to a coin]]
-- [[I would call the gift of thoughtfulness a doubled-edged sword]]
+- [[I would call the gift of thoughtfulness a double-edged sword]]
 - [[Intellectuals and scholars are paid to think deep thoughts]]
 - [[Laggart was not a smart man]]
 - [[People ignore the existential horror]]
