@@ -1,10 +1,10 @@
 # Scott Lynch
 
-**23 quotes** from **4 works**
+**24 quotes** from **4 works**
 
 ## Tags
 
-`funny` (16) · `crude` (12) · `clever` (5) · `insult` (4) · `insightful` (2) · `dark` (2) · `sad` (1) ·
+`funny` (17) · `crude` (13) · `clever` (6) · `insult` (4) · `insightful` (2) · `dark` (2) · `sad` (1) ·
 `craft` (1) · `angry` (1) · `romantic` (1)
 
 *Primary vibes: funny, crude, clever*
@@ -13,6 +13,7 @@
 
 ### Locke Lamora and the Bottled Serpent
 
+- [[Not all of these flavors are meant to bed down together]]
 - [[Yours with nothing but the most honest and cordial treachery]]
 
 ### Red Seas Under Red Skies
