@@ -1,14 +1,14 @@
 # Tags
 
-18 tags across 288 quotes (546 total usages, ~1.9 per quote).
+18 tags across 289 quotes (549 total usages, ~1.9 per quote).
 
 ## Tone
 
 | Tag   | Count | Description                    |
 |-------|-------|--------------------------------|
-| funny |    94 | Humorous, witty, comedic       |
+| funny |    95 | Humorous, witty, comedic       |
 | crude |    33 | Vulgar, profane, raunchy       |
-| dark  |    43 | Grim, bleak, sinister          |
+| dark  |    44 | Grim, bleak, sinister          |
 | angry |     7 | Wrathful, aggressive, outraged |
 
 ## Depth
@@ -32,7 +32,7 @@
 
 | Tag    | Count | Description                          |
 |--------|-------|--------------------------------------|
-| insult |    22 | Directed putdown or burn             |
+| insult |    23 | Directed putdown or burn             |
 | faith  |     6 | Religion, spirituality, belief       |
 | family |    11 | Parents, children, home              |
 | death  |     9 | Mortality, dying, the end            |
