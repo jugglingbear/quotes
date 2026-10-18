@@ -1,12 +1,12 @@
 # Tags
 
-18 tags across 289 quotes (549 total usages, ~1.9 per quote).
+18 tags across 290 quotes (552 total usages, ~1.9 per quote).
 
 ## Tone
 
 | Tag   | Count | Description                    |
 |-------|-------|--------------------------------|
-| funny |    95 | Humorous, witty, comedic       |
+| funny |    96 | Humorous, witty, comedic       |
 | crude |    33 | Vulgar, profane, raunchy       |
 | dark  |    44 | Grim, bleak, sinister          |
 | angry |     7 | Wrathful, aggressive, outraged |
@@ -16,7 +16,7 @@
 | Tag        | Count | Description                        |
 |------------|-------|------------------------------------|
 | profound   |    74 | Deep truth, philosophical weight   |
-| clever     |    37 | Sharp wordplay, elegant logic      |
+| clever     |    38 | Sharp wordplay, elegant logic      |
 | insightful |    83 | Keen observation, wisdom           |
 
 ## Emotional
@@ -32,7 +32,7 @@
 
 | Tag    | Count | Description                          |
 |--------|-------|--------------------------------------|
-| insult |    23 | Directed putdown or burn             |
+| insult |    24 | Directed putdown or burn             |
 | faith  |     6 | Religion, spirituality, belief       |
 | family |    11 | Parents, children, home              |
 | death  |     9 | Mortality, dying, the end            |

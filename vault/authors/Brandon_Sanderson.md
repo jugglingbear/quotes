@@ -1,11 +1,11 @@
 # Brandon Sanderson
 
-**54 quotes** from **15 works**
+**55 quotes** from **15 works**
 
 ## Tags
 
-`insightful` (25) · `profound` (22) · `inspiring` (10) · `clever` (8) · `craft` (8) · `funny` (8) · `comforting` (6) ·
-`dark` (6) · `angry` (4) · `death` (3) · `insult` (3) · `faith` (2) · `romantic` (2) · `sad` (2) · `favorite` (1) ·
+`insightful` (25) · `profound` (22) · `inspiring` (10) · `clever` (9) · `funny` (9) · `craft` (8) · `comforting` (6) ·
+`dark` (6) · `angry` (4) · `insult` (4) · `death` (3) · `faith` (2) · `romantic` (2) · `sad` (2) · `favorite` (1) ·
 `crude` (1)
 
 *Primary vibes: insightful, profound, inspiring*
@@ -39,6 +39,7 @@
 
 - [[A creature of distilled darkness]]
 - [[A pox of unique human diseases]]
+- [[I think it's inspiring]]
 
 ### Starsight
 
