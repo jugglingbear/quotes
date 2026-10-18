@@ -43,18 +43,22 @@ if any, live alongside it (e.g. `.github/copilot-instructions.md`, `.github/inst
 
 ## Git Usage Policy
 
-You may use **read-only** git commands:
+Read-only Git commands may be used freely to inspect the repository.
 
-- `git status`, `git log`, `git show`, `git diff`, `git grep`, `git blame`
+The user gives standing authorization to **stage, commit, and push each completed, self-contained unit of work**
+without asking again. For example, adding a quote includes updating its author index and the tag inventory.
 
-You are **NOT allowed** to modify repository state without explicit user request:
+Before committing and pushing:
 
-- `git add`, `git commit`, `git push`
-- `git checkout -b`, branch creation/deletion, `git tag`
-- `git restore`, `git checkout --`, `git reset`, `git revert`, `git clean`, `git stash`
-- Any git command that writes, stages, commits, merges, rebases, pushes, or discards changes
+- Complete the requested change and all affected derived files.
+- Run the relevant project checks and review the diff.
+- Stage and commit only files or hunks belonging to that unit of work; preserve unrelated and pre-existing staged changes.
+- Push to the current branch's configured upstream. Do not include unrelated unpushed commits without authorization.
+- Report the commit and push result, or any validation, authentication, remote, or sandbox blocker.
 
-Your role is to generate and edit code, not to apply it to version control or discard uncommitted work.
+An explicit request to leave work uncommitted or unpushed overrides this standing authorization.
+Other Git mutations still require an explicit user request, including branch or tag changes, merges, rebases,
+force-pushes, restores, resets, reverts, cleans, and stashes. Never discard uncommitted work.
 
 ---
 

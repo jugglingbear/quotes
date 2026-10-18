@@ -37,21 +37,8 @@ Book: [[The Name of the Wind]]
 
 ## Git Usage Policy
 
-You may use **read-only** git commands for understanding the repository:
-
-- `git status`, `git log`, `git show`, `git diff`, `git grep`, `git blame`
-
-You are **NOT allowed** to modify repository state:
-
-- ❌ `git add`, `git commit`, `git push`
-- ❌ `git checkout -b` or creating new branches
-- ❌ `git branch -D` or deleting branches
-- ❌ `git tag` or creating/removing tags
-- ❌ `git restore`, `git checkout --` or discarding changes
-- ❌ `git reset`, `git revert`, `git clean` or modifying working directory
-- ❌ Any `git` command that writes, stages, commits, merges, rebases, pushes, or discards changes
-
-**Your role is to generate and edit code only**, never to apply those changes to version control or discard uncommitted work.
+Follow the [Git Usage Policy in AGENTS.md](../AGENTS.md#git-usage-policy), including standing authorization to
+stage, commit, and push completed, validated, self-contained work while preserving unrelated changes.
 
 ## Tag System (18 tags)
 
