@@ -1,12 +1,12 @@
 # Brandon Sanderson
 
-**55 quotes** from **15 works**
+**60 quotes** from **17 works**
 
 ## Tags
 
-`insightful` (25) · `profound` (22) · `inspiring` (10) · `clever` (9) · `funny` (9) · `craft` (8) · `comforting` (6) ·
-`dark` (6) · `angry` (4) · `insult` (4) · `death` (3) · `faith` (2) · `romantic` (2) · `sad` (2) · `favorite` (1) ·
-`crude` (1)
+`insightful` (28) · `profound` (23) · `inspiring` (11) · `funny` (11) · `clever` (9) · `craft` (8) · `dark` (8) ·
+`comforting` (6) · `angry` (4) · `insult` (4) · `death` (3) · `romantic` (3) · `sad` (3) · `faith` (2) · `favorite` (1)
+· `crude` (1)
 
 *Primary vibes: insightful, profound, inspiring*
 
@@ -15,6 +15,16 @@
 ### A Memory of Light
 
 - [[All men are ignorant]]
+
+### Cytonic
+
+- [[I followed him up]]
+- [[Things out there are messy]]
+- [[You cannot be defined by your questions]]
+
+### Defiant
+
+- [[Tentative he put his hands around me]]
 
 ### Isles of the Emberdark
 
@@ -44,6 +54,7 @@
 ### Starsight
 
 - [[I will see you mourn]]
+- [[Warriors who have fought return home]]
 - [[You know the worst thing about being in charge]]
 
 ### The Bands of Mourning
