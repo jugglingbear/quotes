@@ -1,14 +1,14 @@
 # Tags
 
-18 tags across 295 quotes (563 total usages, ~1.9 per quote).
+18 tags across 296 quotes (565 total usages, ~1.9 per quote).
 
 ## Tone
 
 | Tag   | Count | Description                    |
 |-------|-------|--------------------------------|
-| funny |    98 | Humorous, witty, comedic       |
+| funny |    99 | Humorous, witty, comedic       |
 | crude |    33 | Vulgar, profane, raunchy       |
-| dark  |    46 | Grim, bleak, sinister          |
+| dark  |    47 | Grim, bleak, sinister          |
 | angry |     7 | Wrathful, aggressive, outraged |
 
 ## Depth

@@ -1,14 +1,14 @@
 # Brandon Sanderson
 
-**60 quotes** from **17 works**
+**61 quotes** from **17 works**
 
 ## Tags
 
-`insightful` (28) · `profound` (23) · `inspiring` (11) · `funny` (11) · `clever` (9) · `craft` (8) · `dark` (8) ·
+`insightful` (28) · `profound` (23) · `funny` (12) · `inspiring` (11) · `clever` (9) · `dark` (9) · `craft` (8) ·
 `comforting` (6) · `angry` (4) · `insult` (4) · `death` (3) · `romantic` (3) · `sad` (3) · `faith` (2) · `favorite` (1)
 · `crude` (1)
 
-*Primary vibes: insightful, profound, inspiring*
+*Primary vibes: insightful, profound, funny*
 
 ## Works
 
@@ -19,6 +19,7 @@
 ### Cytonic
 
 - [[I followed him up]]
+- [[I'm not exactly a there are nuances to this situation type of girl]]
 - [[Things out there are messy]]
 - [[You cannot be defined by your questions]]
 
